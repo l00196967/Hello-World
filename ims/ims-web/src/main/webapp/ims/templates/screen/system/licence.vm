@@ -1,0 +1,39 @@
+<section id="section_add" class="section level-1">
+  <h1 class="section-title">
+    <p>生成Licence</p>
+  </h1>
+  <div class="section-body">
+    <form id="form_add" class="form label-m" autocomplete="off">
+      $csrfToken.hiddenField
+      <div class="box">
+        <section class="section level-2">
+          <div class="section-body">
+            <div class="row first_row">
+              <div class="span w450">
+                <label class="control-label">代码<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="name" name="name" type="text" class="text" required />
+                </div>
+              </div>
+              <div class="span w450">
+                <label class="control-label">有效期至<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="expireTime" name="expireTime" type="text" class="text calendar" required />
+                </div>
+              </div>
+              <div id="row_submit" class="row buttons-div-center last_row">
+                <input id="btn_submit" type="button" class="btn btn-l" value="Generate" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </form>
+  </div>
+</section>
+
+<script type="text/javascript">
+	KISSY.use("ims/system/l", function(S, M) {
+		M.init();
+	});
+</script>

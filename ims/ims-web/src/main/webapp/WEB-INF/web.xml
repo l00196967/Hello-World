@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://java.sun.com/xml/ns/j2ee  http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd
+    ">
+
+	<display-name>IMS</display-name>
+
+	<!--这里的参数是用于log系统初始化 -->
+	<context-param>
+		<param-name>APP_NUM</param-name>
+		<param-value>imshost</param-value>
+	</context-param>
+	<context-param>
+		<param-name>loggingRoot</param-name>
+		<param-value>D:/ims/logs</param-value>
+	</context-param>
+	<context-param>
+		<param-name>loggingLevel</param-name>
+		<param-value>INFO</param-value>
+	</context-param>
+	<context-param>
+		<param-name>logSystem</param-name>
+		<param-value>logback</param-value>
+	</context-param>
+
+	<!--init log -->
+	<listener>
+		<listener-class>com.alibaba.citrus.logconfig.LogConfiguratorListener</listener-class>
+	</listener>
+
+	<!--load /WEB-INF/webx.xml, /WEB-INF/webx-*.xml -->
+	<listener>
+		<listener-class>com.alibaba.citrus.webx.context.WebxContextLoaderListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
+
+	<filter>
+		<filter-name>mdc</filter-name>
+		<filter-class>com.alibaba.citrus.webx.servlet.SetLoggingContextFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>mdc</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>webx</filter-name>
+		<filter-class>com.alibaba.citrus.webx.servlet.WebxFrameworkFilter</filter-class>
+		<init-param>
+			<param-name>excludes</param-name>
+			<param-value>*.jpg,*.png,*.js,*.css,*.ico,*/status.taobao</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>webx</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>

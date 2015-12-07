@@ -1,0 +1,208 @@
+/**
+ * =-------------------------------------------------------------------------=
+ * IMS main.css
+ * =-------------------------------------------------------------------------=
+ *
+ * @description
+ * @author
+ * @date
+ */
+.dna_icon {
+	font-family: "ims-iconfont";
+	font-size: 15px;
+	font-style: normal;
+	cursor: pointer;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.first_row {
+	margin-top: 10px
+}
+
+.last_row {
+	margin-bottom: 10px
+}
+
+.icon_add {
+	color: #3e8acc!important;
+}
+
+.icon_del {
+	color: #eb4f38;
+}
+
+.icon_tips {
+	color: grey;
+}
+
+.hide {
+	display: none;
+}
+
+.ml {
+	margin-left: 10px;
+}
+
+.mr {
+	margin-right: 10px;
+}
+
+.mt {
+    margin-top: 5px;
+}
+
+.fl {
+	float: left;
+}
+
+.tag-m {
+	margin: 0 4px 4px 0
+}
+
+.tip-text {
+	height:30px;
+	vertical-align: middle;
+	line-height: 30px;
+	color: gray;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.w400 {
+	width: 400px;
+}
+
+.w450 {
+    width: 450px;
+}
+
+.w500 {
+    width: 500px;
+}
+
+.tag-row {
+	width: 900px;
+	margin-left: 20px;
+	min-height: 0px !important;
+}
+
+.dna-tag {
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.tag-black {
+	border: 1px solid #DC798B;
+	width: 180px;
+	border-radius: 5px;
+	padding: 10px 10px
+}
+
+.tag-black .tag-title {
+	color: #F2ADAA;
+}
+
+.tag-black .tag-name {
+	color: #DC798B;
+	margin-top: 10px
+}
+
+.tag-white {
+    border: 1px solid #55B952;
+    width: 180px;
+    border-radius: 5px;
+    padding: 10px 10px
+}
+
+.tag-white .tag-title {
+	color: #AEE5AC;
+}
+
+.tag-white .tag-name {
+	color: #55B952;
+	margin-top: 10px
+}
+
+.tag-score {
+    border: 1px solid #616B77;
+    width: 180px;
+    border-radius: 5px;
+    padding: 10px 10px
+}
+
+.tag-score .tag-title {
+	color: #838D97;
+}
+
+.tag-score .tag-name {
+	color: #616B77;
+	margin-top: 10px
+}
+
+.tag-none-risk {
+    border: 1px solid #6CACEC;
+    width: 180px;
+    border-radius: 5px;
+    padding: 10px 10px
+}
+
+.tag-none-risk .tag-title {
+	color: #82B3DE;
+}
+
+.tag-none-risk .tag-name {
+	color: #6CACEC;
+	margin-top: 10px
+}
+
+.cute3 .icon-e610:before, .cute3 .icon-e610-after:after {
+	font-family: 'ims-iconfont';
+	content: '\e610';
+}
+
+.cute3 .icon-e61e:before, .cute3 .icon-e61e-after:after {
+	font-family: 'ims-iconfont';
+	content: '\e61e';
+}
+
+.cute3 .icon-e615:before, .cute3 .icon-e615-after:after {
+    font-family: 'ims-iconfont';
+    content: '\e615';
+}
+
+.cute3 .icon-e716:before, .cute3 .icon-e716-after:after {
+    font-family: 'ims-iconfont';
+    content: '\e716';
+}
+
+.cute3 .icon-e617:before, .cute3 .icon-e617-after:after {
+    font-family: 'ims-iconfont';
+    content: '\e617';
+}
+
+.edit {
+	display: none;
+}
+
+.logo {
+	width: 30px;
+	height: 30px
+}
+
+.taobao-wangwang-online {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(https://aliwork.alicdn.com/tps/i1/TB1MkIRFVXXXXatXXXXz843ZpXX-316-260.png) -62px -36px no-repeat;
+}
+
+.hint {
+  background-color: #f4faff;
+  border: 1px solid #a2d1fe;
+  padding: 10px;
+  max-width: 300px;
+}

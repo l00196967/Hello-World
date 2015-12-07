@@ -1,0 +1,1914 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-position: center;
+}
+
+.qh1 {
+	font-size: 10.5pt;
+	text-decoration: none;
+	color: #1a56a8;
+	font-family: "宋体";
+	font-weight: bold;
+}
+
+.qh11 {
+	font-size: 10.5pt;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "宋体";
+	font-weight: bold;
+}
+
+.qh2 {
+	font-size: 10.5pt;
+	text-decoration: none;
+	color: #333333;
+	font-family: "宋体";
+}
+
+.qh2 .qh11 {
+	font-size: 10.5pt;
+	text-decoration: none;
+	color: #333333;
+	font-weight: normal;
+	font-family: "宋体";
+}
+
+.qh3 {
+	font-size: 10.5pt;
+	text-decoration: none;
+	color: #1a56a8;
+	font-family: "宋体";
+	font-weight: bold;
+}
+
+.qh4 {
+	font-size: 10.5pt;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "宋体";
+	font-weight: bold;
+}
+
+.qh5 {
+	font-size: 10.5pt;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "宋体";
+	font-weight: bold;
+}
+
+.bz1 {
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	background: url(/ims/static/img/tax/jsds_new1.jpg) no-repeat center;
+	cursor: pointer;
+}
+
+.bz2 {
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	background: url(/ims/static/img/tax/jsds_new2.jpg) no-repeat center;
+	cursor: pointer;
+}
+
+a.bsfd {
+	font-size: 10.5pt;
+	text-decoration: none;
+	color: #313131;
+	line-height: 24px;
+}
+
+a.bsfd:hover {
+	color: #1a56a8;
+	text-decoration: none;
+}
+
+.page1 {
+	BORDER-RIGHT: #e6e6e6 1px solid;
+	BORDER-TOP: #e6e6e6 1px solid;
+	DISPLAY: inline;
+	BORDER-LEFT: #e6e6e6 1px solid;
+	CURSOR: pointer;
+	MARGIN-RIGHT: 5px;
+	BORDER-BOTTOM: #e6e6e6 1px solid;
+	LIST-STYLE-TYPE: none;
+	font-size: 12px;
+}
+
+.page2 {
+	CURSOR: pointer;
+	BORDER-RIGHT: #b7d8ee 1px solid;
+	BORDER-TOP: #b7d8ee 1px solid;
+	BORDER-LEFT: #b7d8ee 1px solid;
+	BORDER-BOTTOM: #b7d8ee 1px solid;
+	BACKGROUND-COLOR: #d2eaf6;
+	FONT-WEIGHT: bold;
+	COLOR: #444444;
+	font-size: 12px;
+}
+
+.bluedh {
+	font-size: 10.5pt;
+	text-decoration: none;
+	color: #1a57a8;
+	font-family: '宋体';
+}
+-->
+</style>
+</head>
+<body background="/ims/static/img/tax/jsds_bg-1.jpg" topmargin="0">
+  <table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td valign="top">
+          <table border="0" cellspacing="0" cellpadding="0" width="1002" align="center" height="149">
+            <form id="qForm" name="qFrom" method="get" action="/jrobot/search.do"></form>
+            <tbody>
+              <tr>
+                <td valign="top" background="/ims/static/img/tax/110810143115120.jpg" align="right"
+                  style="padding-right: 15px; padding-top: 8px"></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="1002" height="28" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td width="148" class="blue1" style="padding-left: 16px;"></td>
+        <td width="639" class="blue1">
+          <table align="center" width="100%" style="text-align: center;">
+            <tbody>
+              <tr>
+                <td width="60" align="center" valign="middle" style="PADDING-TOP: 1px"><a class="bluedh" href="#"><b>省局主站</b></a></td>
+                <td width="18" align="middle" valign="middle">|</td>
+                <td width="60" align="center" valign="middle" style="PADDING-TOP: 1px"><a class="bluedh" href="#"><b>本站首页</b></a></td>
+                <td width="18" align="middle" valign="middle"></td>
+                <td width="60" align="center" valign="middle" style="PADDING-TOP: 1px"></td>
+                <td width="18" align="middle" valign="middle"></td>
+                <td width="60" align="center" valign="middle" style="PADDING-TOP: 1px"></td>
+                <td width="18" align="middle" valign="middle"></td>
+                <td width="60" align="center" valign="middle" style="PADDING-TOP: 1px"></td>
+                <td width="18" align="middle" valign="middle"></td>
+                <td width="60" align="center" valign="middle" style="PADDING-TOP: 1px"></td>
+                <td align="center" style="PADDING-TOP: 4px"></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td width="215" class="blue1"></td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td height="10"></td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td width="6" valign="top"><img src="/ims/static/img/tax/jsds_index_14.jpg" width="6" height="95"></td>
+        <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td width="166"><img src="/ims/static/img/tax/jsds_index_15.jpg" width="166" height="33"></td>
+                <td background="/ims/static/img/tax/jsds_index_16.jpg">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td height="90" align="center" valign="middle">﻿
+                  <table style="MARGIN-BOTTOM: 4px; text-align: center;" height="17" cellspacing="0" cellpadding="0" width="873"
+                    border="0" align="center">
+                    <tbody>
+                      <tr align="middle">
+                        <td></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top" width="180"><a
+                          class="gk" href="#">信息公开制度</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top" width="180"><a
+                          class="gk" href="#">信息公开年报</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top"><a
+                          class="gk" href="#">行政许可</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top"><a
+                          class="gk" href="#">全局概况</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top"><a
+                          class="gk" href="#">计划规划</a></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="MARGIN-BOTTOM: 4px; text-align: center;" height="17" cellspacing="0" cellpadding="0" width="873"
+                    border="0" align="center">
+                    <tbody>
+                      <tr align="middle">
+                        <td></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top" width="180"><a
+                          class="gk" href="http://lygxxgk.jsds.gov.cn/art/2012/7/14/art_781_91.html">信息公开指南</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid; letter-spacing: 3px;"
+                          valign="top" width="180"><a class="gk"
+                          href="http://lygxxgk.jsds.gov.cn/zfxxgk/ysqgk/index.jsp?jdid=12">依申请公开</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top"><a
+                          class="gk" href="/col/col57996/index.html">行政确认</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top"><a
+                          class="gk" href="/col/col53257/index.html">领导专栏</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top"><a
+                          class="gk" href="/col/col10202/index.html">税收收入</a></td>
+
+
+
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table height="17" cellspacing="0" cellpadding="0" width="873" border="0" align="center"
+                    style="text-align: center;">
+                    <tbody>
+                      <tr align="middle">
+                        <td></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top" width="180"><a
+                          class="gk" href="http://lygxxgk.jsds.gov.cn/">信息公开目录</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid; letter-spacing: 3px;"
+                          valign="top" width="180"><a class="gk"
+                          href="http://pub.jsds.gov.cn/lm/front/main.jsp?sysid=001&amp;sess=0&amp;groupid=0032&amp;editpagename=main_lyg.htm">公开意见箱</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top"><a
+                          class="gk" href="/col/col57998/index.html">行政强制</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top"><a
+                          class="gk" href="/col/col45056/index.html">人事信息</a></td>
+                        <td valign="top" width="19"></td>
+                        <td style="BORDER-RIGHT: #b7bac1 1px solid; BORDER-BOTTOM: #b7bac1 1px solid" valign="top"><a
+                          class="gk" href="/col/col57995/index.html">服务承诺</a></td>
+
+
+
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td width="9" valign="top"><img src="/ims/static/img/tax/jsds_index_19.jpg" width="9" height="98"></td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td align="center">
+          <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+              <tr>
+                <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top: 2px;">
+                    <tbody>
+                      <tr>
+                        <td width="97%" height="40" align="center" valign="middle"
+                          style="padding-left: 2px; font-weight: bold; line-height: 40px;"><a
+                          href="/art/2015/11/26/art_30015_786710.html" class="toutiao" title="国家税务总局关于发布《车船税管理规程（试行）》的公告"
+                          style="font-family: '黑体'; font-size: 20pt;"> 国家税务总局关于发布《车船税管理规程（试行）》的公告</a></td>
+
+                      </tr>
+                    </tbody>
+                  </table></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td width="6" valign="top"><img src="/ims/static/img/tax/jsds_index_14.jpg" width="6" height="95"></td>
+        <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td width="166"><img src="/ims/static/img/tax/jsds_index_23.jpg" width="166" height="33"></td>
+                <td valign="top" background="/ims/static/img/tax/jsds_index_16.jpg"><a name="bsfw">&nbsp;</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td height="7"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td width="1" height="90" align="left" valign="top"></td>
+                <td align="left" valign="top" width="403"><table width="402" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 1px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid;">
+                    <tbody>
+                      <tr>
+                        <td width="1" height="24"></td>
+                        <td width="85" align="center" class="blue2">帮助办税</td>
+                        <td width="310" align="right"></td>
+                        <td width="4"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="402" border="0" cellpadding="0" cellspacing="0"
+                    style="BORDER-top: #abc2e4 0px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid; background-repeat: repeat-x;">
+                    <tbody>
+                      <tr>
+                        <td width="400" height="206" align="center" valign="top"><table border="0" cellspacing="0"
+                            cellpadding="0" width="360" height="24" style="margin-top: 8px">
+                            <tbody>
+                              <tr>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">办税指南</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">优惠办理指南</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">办税地图</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">办税日历</a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="360" height="24" style="margin-top: 12px">
+                            <tbody>
+                              <tr>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">办税时间</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">办税电话</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex"
+                                  style="cursor: pointer; text-decoration: none" href="#">办税时限</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">税款计算</a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="360" height="24" style="margin-top: 12px">
+                            <tbody>
+                              <tr>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">税种税率</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">基金 (费)</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" style="letter-spacing: -1px" href="#">核定率</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">土地等级</a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="360" height="24" style="margin-top: 12px">
+                            <tbody>
+                              <tr>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">预约服务</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">定制服务</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex"
+                                  style="cursor: pointer; text-decoration: none" href="#">税源表直报</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex" href="#">表单下载</a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="360" height="24" style="margin-top: 12px">
+                            <tbody>
+                              <tr>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex"
+                                  href="http://www.chinatax.gov.cn/cjsfwwangluo/index.html">场景服务</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex"
+                                  href="http://pub.jsds.gov.cn/col/col12464/index.html">行政救济</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" background="/ims/static/img/tax/130604163653997.jpg" width="78" align="center"
+                                  style="background-repeat: no-repeat"><a class="bluex"
+                                  style="cursor: pointer; text-decoration: none"
+                                  href="http://pub.jsds.gov.cn/art/2014/10/28/art_54432_661999.html">涉税中介服务</a></td>
+                                <td>&nbsp;</td>
+                                <td valign="middle" width="78" align="center"></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                      </tr>
+                    </tbody>
+                  </table></td>
+                <td width="11" align="left" valign="top"></td>
+                <td width="572" align="left" valign="top"><table width="572" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 1px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid;">
+                    <tbody>
+                      <tr>
+                        <td width="1" height="24"></td>
+                        <td width="105" align="center" class="blue2">网上办税厅</td>
+                        <td width="446" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td style="font-size: 9pt; color: #B61111; padding-top: 0px;">
+                                  <!--<MARQUEE onmouseover=this.stop() onmouseout=this.start() scrollAmount=2 width=100% >-->12月份申报纳税截止期为12月15日。逾期将按日加收滞纳税款0.5‰的滞纳金。<!--</MARQUEE>-->
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                        <td width="19"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="572" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 0px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid; background-repeat: repeat-x;">
+                    <tbody>
+                      <tr>
+                        <td height="200" align="left" valign="bottom" background="/ims/static/img/tax/141025212936128.jpg"
+                          style="background-repeat: no-repeat"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td height="49" align="center" valign="top"><a href="area2.htm"><img border="0"
+                                    src="/ims/static/img/tax/141025212935998.jpg"></a></td>
+                              </tr>
+                              <tr></tr>
+                            </tbody>
+                          </table></td>
+                      </tr>
+                    </tbody>
+                  </table></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td height="10"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td width="3" height="90" align="left" valign="top"></td>
+                <td align="left" valign="top">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 1px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid;">
+                    <tbody>
+                      <tr>
+                        <td width="3" height="24"></td>
+                        <td width="85" align="center" class="blue2">涉税通告</td>
+                        <td align="right"><a href="/col/col10182/index.html" class="bt_link"
+                          style="float: right; clear: right; padding-right: 4px; padding-top: 0px; cursor: hand; text-decoration: none; font-family: 宋体;">更多&gt;&gt;</a></td>
+                        <td width="4"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 0px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid; background-repeat: repeat-x;">
+                    <tbody>
+                      <tr>
+                        <td height="203" align="center" valign="top"><table width="100%" border="0" cellspacing="0"
+                            cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td height="160" align="left" valign="top"><table width="100%" cellspacing="0"
+                                    cellpadding="0" border="0">
+                                    <tbody>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="/art/2015/12/3/art_10182_786622.html" class="bt_link"
+                                                  title="江苏省连云港地方税务局第七税务分局关于送达《责令限期改正通知书》的公告">江苏省连云港地方税务局第七税务分局关于送达《...</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-12-03]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link" title="江苏省连云港地方税务局第六税务分局关于送达《责令限期改正通知书》的公告">江苏省连云港地方税务局第六税务分局关于送达《...</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-12-02]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link" title="江苏省连云港地方税务局第六税务分局关于送达催缴社保费《社会保险费限期缴纳通知书》的公告">江苏省连云港地方税务局第六税务分局关于送达催...</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-12-01]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link" title="大集中系统土地增值税申报操作手册（纳税人版）">大集中系统土地增值税申报操作手册（纳税人版）</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-11-27]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link" title="土地增值税纳税申报表填表说明">土地增值税纳税申报表填表说明</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-11-27]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link" title="江苏省连云港地方税务局第七税务分局关于送达《责令限期改正通知书》的公告">江苏省连云港地方税务局第七税务分局关于送达《...</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-11-09]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td align="center"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center"><a href="/col/col28627/index.html"><img border="0" alt=""
+                                            width="186" height="28" src="/ims/static/img/tax/131225164130271.jpg"></a></td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </td>
+                <td width="10" align="left" valign="top"></td>
+                <td width="573" align="left" valign="top">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 1px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid;">
+                    <tbody>
+                      <tr>
+                        <td width="2" height="24"></td>
+                        <td width="85" align="center" class="blue2">纳税咨询</td>
+                        <td align="right" width="479"><a href="#" class="bt_link"
+                          style="float: right; clear: right; padding-right: 4px; padding-top: 0px; cursor: hand; text-decoration: none; font-family: 宋体;">更多&gt;&gt;</a></td>
+                        <td width="4"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0"
+                    style="BORDER-top: #abc2e4 0px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid; background-repeat: repeat-x;">
+                    <tbody>
+                      <tr>
+                        <td width="160" height="203" align="center" valign="top"><table border="0" cellspacing="0"
+                            cellpadding="0" width="100%" align="center" style="margin-top: 6px">
+                            <tbody>
+                              <tr>
+                                <td height="80" align="center"><a style="cursor: pointer"><img border="0" alt=""
+                                    width="141" height="80" src="/ims/static/img/tax/111201191740297.jpg"></a></td>
+                              </tr>
+                              <tr>
+                                <td height="12" align="center"></td>
+                              </tr>
+                              <tr>
+                                <td height="80" valign="bottom" align="center"><a href="#"><img border="0" alt=""
+                                    width="141" height="80" src="/ims/static/img/tax/111201191740187.jpg"></a></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                        <td width="9" height="90" align="left" valign="top"></td>
+                        <td align="left" valign="top"><table width="100%" height="22" border="0" cellpadding="0"
+                            cellspacing="0" bgcolor="#e8ecee" style="margin-bottom: 4px;">
+                            <tbody>
+                              <tr>
+                                <td width="3" height="24"></td>
+                                <td width="120" align="center" class="qh2"><a href="#" class="qh2">每日热点问题解答</a></td>
+                                <td align="center" class="qh2"></td>
+                                <td width="3" align="center"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td height="132" align="left" valign="top"><table width="100%" cellspacing="0"
+                                    cellpadding="0" border="0">
+                                    <tbody>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link" title="员工向企业内设工会缴纳的工会费是否可以在个人所得税税前扣除？">员工向企业内设工会缴纳的工会费是否可以在个人...</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-12-04]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link" title="个人独资合伙企业逾期未申报社保而缴纳的社保滞纳金，能否在计算缴纳个人所得税时扣除？">个人独资合伙企业逾期未申报社保而缴纳的社保滞...</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-12-03]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link"
+                                                  title="境内个人在中国企业任职，现被外派到境外工作，每月兼有来源于境内、外的所得，该员工应于何时申报其境外所得？">境内个人在中国企业任职，现被外派到境外工作，...</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-12-02]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link" title="房地产企业转让未经开发的土地，土地增值税允许扣除的税费包括哪些？">房地产企业转让未经开发的土地，土地增值税允许...</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-12-01]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link" title="人身保险和意外保险合同是否需要缴纳印花税？">人身保险和意外保险合同是否需要缴纳印花税？</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-11-30]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link" title="企业与商场签订联合销售合同，合同约定企业、商场按照比例分成销售收入，该合同是否应当缴纳印花税？">企业与商场签订联合销售合同，合同约定企业、商...</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-11-27]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                                    src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                                  href="#" class="bt_link" title="由国家财政部门拨付事业经费，实行差额预算管理的事业单位，其自用土地是否可以免缴土地使用税？">由国家财政部门拨付事业经费，实行差额预算管理...</a></td>
+                                                <td width="80" align="right" class="bt_date">[2015-11-26]</td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td align="center"></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td height="10"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td width="3" height="90" align="left" valign="top"></td>
+                <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 1px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid;">
+                    <tbody>
+                      <tr>
+                        <td width="2" height="24"></td>
+                        <td width="85" align="center" class="blue2">纳税人学堂</td>
+                        <td align="right"><a href="#" class="bt_link"
+                          style="float: right; clear: right; padding-right: 4px; padding-top: 0px; cursor: hand; text-decoration: none; font-family: 宋体;">更多&gt;&gt;</a></td>
+                        <td width="4"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0"
+                    style="BORDER-top: #abc2e4 0px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid; background-repeat: repeat-x;">
+                    <tbody>
+                      <tr>
+
+                        <td><table width="100%">
+                            <tbody>
+                              <tr>
+
+                                <td align="center" valign="top" style="padding-top: 9px;"><table style="text-align: center;"
+                                    border="0" cellspacing="0" cellpadding="0" bgcolor="#e8ecee" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td width="3"></td>
+                                        <td align="center" valign="middle" class="qh2" id="ed12[0]"
+                                          onmouseover="secBoard(0,'ed12',flow,'qh2','qh2')"><a href="#" class="qh2">政策解读</a></td>
+                                        <td align="center" valign="middle" class="qh2" id="ed12[1]"
+                                          onmouseover="secBoard(1,'ed12',flow,'qh2','qh2')"><a href="#" class="qh2">最新政策</a></td>
+                                        <td align="center" valign="middle" class="qh2" id="ed12[2]"
+                                          onmouseover="secBoard(2,'ed12',flow,'qh2','qh2')"><a href="#" class="qh2">以案说法</a></td>
+                                        <td align="right" valign="middle">&nbsp;</td>
+                                        <td width="3" align="middle" height="24"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table width="100%" border="0" cellpadding="0" cellspacing="0" id="flow">
+                                    <tbody style="display: block;">
+                                      <tr>
+                                        <td align="left" valign="top" style="padding-left: 12px; padding-top: 5px;"><table
+                                            width="100%" cellspacing="0" cellpadding="0" border="0">
+                                            <tbody>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="关于《车船税管理规程（试行）》公告的解读">关于《车船税管理规程（试行）》公告的解读</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="关于《国家税务总局关于技术转让所得企业所得税有关问题的公告》的解读">关于《国家税务总局关于技术转让所得企业所得税有关问...</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="关于《国家税务总局关于股权奖励和转增股本个人所得税征管问题的公告》的解读">关于《国家税务总局关于股权奖励和转增股本个人所得税...</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="关于《国家税务总局关于修改企业所得税月（季）度预缴纳税申报表公告》的解读">关于《国家税务总局关于修改企业所得税月（季）度预缴...</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="关于《国家税务总局关于发布〈企业所得税优惠政策事项办理办法〉的公告》的解读">关于《国家税务总局关于发布〈企业所得税优惠政策事项...</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                    </tbody>
+                                    <tbody style="display: none;">
+                                      <tr>
+                                        <td align="left" valign="top" style="padding-left: 12px; padding-top: 5px;"><table
+                                            width="100%" cellspacing="0" cellpadding="0" border="0">
+                                            <tbody>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="国家税务总局关于发布《车船税管理规程（试行）》的公告">国家税务总局关于发布《车船税管理规程（试行）》的公...</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="国家税务总局关于许可使用权技术转让所得企业所得税有关问题的公告">国家税务总局关于许可使用权技术转让所得企业所得税有...</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="国家税务总局关于股权奖励和转增股本个人所得税征管问题的公告">国家税务总局关于股权奖励和转增股本个人所得税征管问...</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="国家税务总局关于修改企业所得税月（季）度预缴纳税申报表的公告">国家税务总局关于修改企业所得税月（季）度预缴纳税申...</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="国家税务总局关于发布《企业所得税优惠政策事项办理办法》的公告">国家税务总局关于发布《企业所得税优惠政策事项办理办...</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                    </tbody>
+
+                                    <tbody style="display: none;">
+                                      <tr>
+                                        <td align="left" valign="top" style="padding-left: 12px; padding-top: 5px;"><table
+                                            width="100%" cellspacing="0" cellpadding="0" border="0">
+                                            <tbody>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="地下室及人防工程成本在土地增值税扣除时应区别对待">地下室及人防工程成本在土地增值税扣除时应区别对待</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="“熟地”转让缴纳土地增值税时土地成本不得加计扣除">“熟地”转让缴纳土地增值税时土地成本不得加计扣除</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link"
+                                                          title="“三代”手续费应按规定缴纳企业所得税">“三代”手续费应按规定缴纳企业所得税</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link" title="不动产投资入股怎么缴纳营业税">不动产投资入股怎么缴纳营业税</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                              <tr>
+                                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td height="24"><font style="padding: 0 7px 0 4px;"><img
+                                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle"
+                                                            border="0"></font><a href="#" class="bt_link" title="房产租赁中的免租期间是否要交房产税">房产租赁中的免租期间是否要交房产税</a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td align="center"><a href="#"><img border="0" alt="" width="174"
+                                                    height="30" src="/ims/static/img/tax/121102154805983.jpg"></a></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td height="7"></td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                        <td width="10"></td>
+                        <td height="195" align="center" valign="top" width="349"><table width="100%" border="0"
+                            cellpadding="0" cellspacing="0">
+
+                            <tbody>
+                              <tr>
+                                <td height="124" align="left" valign="top"><table height="42" cellspacing="0" cellpadding="0"
+                                    border="0" style="margin-top: 5px">
+                                    <tbody>
+                                      <tr>
+                                        <td width="139">
+                                          <table cellspacing="0" cellpadding="0" width="139"
+                                            background="/ims/static/img/tax/130605153229451.jpg" border="0"
+                                            style="margin-left: 25px; margin-top: 8px">
+                                            <tbody>
+                                              <tr>
+                                                <td height="42" valign="middle" align="center"><a class="bt_link"
+                                                  target="_self"
+                                                  style="font-size: 10.5pt; text-decoration: none; letter-spacing: -1px" href="#">国内个人</a></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                        <td width="139">
+                                          <table cellspacing="0" cellpadding="0" width="139"
+                                            background="/ims/static/img/tax/130605153229451.jpg" border="0"
+                                            style="margin-left: 20px; margin-top: 8px">
+                                            <tbody>
+                                              <tr>
+                                                <td height="42" valign="middle" align="center"><a class="bt_link"
+                                                  style="font-size: 10.5pt; text-decoration: none; letter-spacing: -1px" href="#">个体工商户</a></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table height="42" cellspacing="0" cellpadding="0" border="0">
+                                    <tbody>
+                                      <tr>
+                                        <td width="139">
+                                          <table cellspacing="0" cellpadding="0" width="139"
+                                            background="/ims/static/img/tax/130605153229451.jpg" border="0"
+                                            style="margin-left: 25px; margin-top: 8px">
+                                            <tbody>
+                                              <tr>
+                                                <td height="42" valign="middle" align="center"><a class="bt_link"
+                                                  style="font-size: 10.5pt; text-decoration: none; letter-spacing: -1px" href="#">外籍个人</a></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                        <td width="139">
+                                          <table cellspacing="0" cellpadding="0" width="139"
+                                            background="/ims/static/img/tax/130605153229451.jpg" border="0"
+                                            style="margin-left: 20px; margin-top: 8px">
+                                            <tbody>
+                                              <tr>
+                                                <td height="42" valign="middle" align="center"><a class="bt_link"
+                                                  style="cursor: pointer; font-size: 10.5pt; text-decoration: none; letter-spacing: -1px"
+                                                  href="#">企业纳税人</a></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table cellspacing="0" cellpadding="0" border="0">
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                          <table cellspacing="0" cellpadding="0" width="139"
+                                            background="/ims/static/img/tax/130605153229451.jpg" border="0"
+                                            style="margin-left: 25px; margin-top: 8px">
+                                            <tbody>
+                                              <tr>
+                                                <td height="42" valign="middle" align="center"><a class="bt_link" alt=""
+                                                  style="font-size: 10.5pt; text-decoration: none; letter-spacing: -1px" href="#">企业所得税汇算清缴</a></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                        <td>
+                                          <table cellspacing="0" cellpadding="0" width="139"
+                                            background="/ims/static/img/tax/130605153229451.jpg" border="0"
+                                            style="margin-left: 20px; margin-top: 8px">
+                                            <tbody>
+                                              <tr>
+                                                <td height="42" valign="middle" align="center"><a class="bt_link" alt=""
+                                                  style="font-size: 10.5pt; text-decoration: none; letter-spacing: -1px" href="#">中小微企业</a></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td align="left"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="8"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <tbody>
+                                      <tr>
+                                        <td width="9"></td>
+                                        <td><a href="#"><img border="0" alt=""
+                                            src="/ims/static/img/tax/141209143708410.jpg"></a></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="7"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                      </tr>
+                    </tbody>
+                  </table></td>
+                <td width="10" align="left" valign="top"></td>
+                <td width="214" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 1px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid;">
+                    <tbody>
+                      <tr>
+                        <td width="2" height="24"></td>
+                        <td width="85" align="center" class="blue2">公示公告</td>
+                        <td align="right"><a href="#" class="bt_link"
+                          style="float: right; clear: right; padding-right: 4px; padding-top: 0px; cursor: hand; text-decoration: none; font-family: 宋体;">更多&gt;&gt;</a></td>
+                        <td width="4"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 0px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid; background-repeat: repeat-x;">
+                    <tbody>
+                      <tr>
+                        <td height="193" align="left" valign="top" style="padding-left: 10px; padding-top: 2px;"><table
+                            height="30" cellspacing="0" cellpadding="0" width="200" align="center" border="0"
+                            style="margin-top: 6px">
+                            <tbody>
+                              <tr>
+                                <td width="5"></td>
+                                <td width="8" align="left"><img border="0" alt="" width="4" height="5"
+                                  src="/ims/static/img/tax/110506142534965.jpg"></td>
+                                <td width="80" align="left"><a class="zzq" style="letter-spacing: 4px" href="#">欠税公告</a></td>
+                                <td width="6" align="left"></td>
+                                <td width="8" align="left"><img border="0" alt="" width="4" height="5"
+                                  src="/ims/static/img/tax/110506142534965.jpg"></td>
+                                <td align="left"><a class="zzq" href="#">证件失效公告</a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table height="30" cellspacing="0" cellpadding="0" width="200" align="center" border="0">
+                            <tbody>
+                              <tr>
+                                <td width="5"></td>
+                                <td width="8" align="left"><img border="0" alt="" width="4" height="5"
+                                  src="/ims/static/img/tax/110506142534965.jpg"></td>
+                                <td width="80" align="left"><a class="zzq" style="letter-spacing: 4px" href="#">遗失公告</a></td>
+                                <td width="6" align="left"></td>
+                                <td width="8" align="left"><img border="0" alt="" width="4" height="5"
+                                  src="/ims/static/img/tax/110506142534965.jpg"></td>
+                                <td align="left"><a class="zzq" href="#">违法案件信息</a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table height="30" cellspacing="0" cellpadding="0" width="200" align="center" border="0">
+                            <tbody>
+                              <tr>
+                                <td width="5"></td>
+                                <td width="8" align="left"><img border="0" alt="" width="4" height="5"
+                                  src="/ims/static/img/tax/110506142534965.jpg"></td>
+                                <td width="80" align="left"><a class="zzq" style="letter-spacing: 4px" href="#">个体定额</a></td>
+                                <td width="6" align="left"></td>
+                                <td width="8" align="left"><img border="0" alt="" width="4" height="5"
+                                  src="/ims/static/img/tax/110506142534965.jpg"></td>
+                                <td align="left"><a class="zzq" href="#">非正常户公告</a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table height="30" cellspacing="0" cellpadding="0" width="200" align="center" border="0">
+                            <tbody>
+                              <tr>
+                                <td width="5"></td>
+                                <td width="8" align="left"><img border="0" alt="" width="4" height="5"
+                                  src="/ims/static/img/tax/110506142534965.jpg"></td>
+                                <td width="80" align="left"><a class="zzq" style="letter-spacing: 2px" href="#">A级纳税人</a></td>
+                                <td width="6" align="left"></td>
+                                <td width="8" align="left"><img border="0" alt="" width="4" height="5"
+                                  src="/ims/static/img/tax/110506142534965.jpg"></td>
+                                <td align="left"><a class="zzq" href="#">行政处罚标准</a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table height="30" cellspacing="0" cellpadding="0" width="200" align="center" border="0">
+                            <tbody>
+                              <tr>
+                                <td width="5"></td>
+                                <td width="8" align="left"><img border="0" alt="" width="4" height="5"
+                                  src="/ims/static/img/tax/110506142534965.jpg"></td>
+                                <td align="left"><a class="zzq" href="#">高新技术企业</a></td>
+                                <td width="6" align="left"></td>
+                                <td width="8" align="left"></td>
+                                <td width="75" align="left"></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                      </tr>
+                    </tbody>
+                  </table></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td width="9" valign="top"><img src="/ims/static/img/tax/jsds_index_19.jpg" width="9" height="98"></td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="998" height="10" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td width="6" valign="top"><img src="/ims/static/img/tax/jsds_index_14.jpg" width="6" height="95"></td>
+        <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td width="166"><img src="/ims/static/img/tax/jsds_index_26.jpg" width="166" height="33"></td>
+                <td valign="top" background="/ims/static/img/tax/jsds_index_16.jpg"><a name="gzcy">&nbsp;</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td height="7"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td width="3" height="90" align="left" valign="top"></td>
+                <td align="left" valign="top"><table width="100%" height="22" border="0" cellpadding="0" cellspacing="0"
+                    style="BORDER-top: #abc2e4 1px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid;">
+                    <tbody>
+                      <tr>
+                        <td width="6" height="24"></td>
+                        <td width="81" align="center" class="blue2">调查征集</td>
+                        <td align="left" style="padding-left: 68px;"><a href="#" class="bt_link"
+                          style="float: right; clear: right; padding-right: 4px; padding-top: 0px; cursor: hand; text-decoration: none; font-family: 宋体;">更多&gt;&gt;</a>
+                        </td>
+                        <td width="3" align="center"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0"
+                    style="BORDER-top: #abc2e4 0px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid; background-repeat: repeat-x;">
+                    <tbody>
+                      <tr>
+                        <td height="135" align="left" valign="top" style="padding-left: 16px; padding-top: 5px;"><span
+                          style="padding-left: 0px; padding-top: 2px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                      <tbody>
+                                        <tr>
+                                          <td height="22" align="left" valign="top" width="330" style="padding-left: 10px;"><img
+                                            alt="" src="/ims/static/img/tax/150519132747252.jpg" style="margin-right: 8px;"><a
+                                            href="#" class="bt_link" title="江苏地税12366纳税咨询服务需求及满意度调查问卷 [进行中]">江苏地税12366纳税咨询服务需求及满意度调查问卷...</a></td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table></td>
+                                  <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                      <tbody>
+                                        <tr>
+                                          <td height="22" align="left" valign="top" width="330" style="padding-left: 10px;"><img
+                                            alt="" src="/ims/static/img/tax/150519132747252.jpg" style="margin-right: 8px;"><a
+                                            href="#" class="bt_link" title="优化办税服务意见征集 [进行中]">优化办税服务意见征集 [进行中]</a></td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                  <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                      <tbody>
+                                        <tr>
+                                          <td height="22" align="left" valign="top" width="330" style="padding-left: 10px;"><img
+                                            alt="" src="/ims/static/img/tax/150519132747252.jpg" style="margin-right: 8px;"><a
+                                            href="#" class="bt_link" title="江苏省企业费负调查 [进行中]">江苏省企业费负调查 [进行中]</a></td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table></td>
+                                  <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                      <tbody>
+                                        <tr>
+                                          <td height="22" align="left" valign="top" width="330" style="padding-left: 10px;"><img
+                                            alt="" src="/ims/static/img/tax/150519132747252.jpg" style="margin-right: 8px;"><a
+                                            href="#" class="bt_link" title="“消除地区封锁打破行业垄断”意见征集 [已结束]">“消除地区封锁打破行业垄断”意见征集 [已结束]</a></td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                  <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                      <tbody>
+                                        <tr>
+                                          <td height="22" align="left" valign="top" width="330" style="padding-left: 10px;"><img
+                                            alt="" src="/ims/static/img/tax/150519132747252.jpg" style="margin-right: 8px;"><a
+                                            href="#" class="bt_link" title="对纳税人延期缴纳税款的核准事项的意见调查 [已结束]">对纳税人延期缴纳税款的核准事项的意见调查
+                                              [已结束...</a></td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table></td>
+                                  <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                      <tbody>
+                                        <tr>
+                                          <td height="22" align="left" valign="top" width="330" style="padding-left: 10px;"><img
+                                            alt="" src="/ims/static/img/tax/150519132747252.jpg" style="margin-right: 8px;"><a
+                                            href="#" class="bt_link" title="对企业印制发票审批事项的意见调查 [已结束]">对企业印制发票审批事项的意见调查 [已结束]</a></td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                  <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                      <tbody>
+                                        <tr>
+                                          <td height="22" align="left" valign="top" width="330" style="padding-left: 10px;"><img
+                                            alt="" src="/ims/static/img/tax/150519132747252.jpg" style="margin-right: 8px;"><a
+                                            href="#" class="bt_link" title="江苏地税网上办税厅意见征集 [已结束]">江苏地税网上办税厅意见征集 [已结束]</a></td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table></td>
+                                  <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                      <tbody>
+                                        <tr>
+                                          <td height="22" align="left" valign="top" width="330" style="padding-left: 10px;"><img
+                                            alt="" src="/ims/static/img/tax/150519132747252.jpg" style="margin-right: 8px;"><a
+                                            href="#" class="bt_link" title="江苏地税网站《办税须知》栏目意见征集 [已结束]">江苏地税网站《办税须知》栏目意见征集 [已结束]</a></td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                  <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                      <tbody>
+                                        <tr>
+                                          <td height="22" align="left" valign="top" width="330" style="padding-left: 10px;"><img
+                                            alt="" src="/ims/static/img/tax/150519132747252.jpg" style="margin-right: 8px;"><a
+                                            href="#" class="bt_link" title="年所得12万元以上个税自行申报辅助软件意见征集 [已结束]">年所得12万元以上个税自行申报辅助软件意见征集
+                                              [...</a></td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table></td>
+                                  <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                                      <tbody>
+                                        <tr>
+                                          <td height="22" align="left" valign="top" width="330" style="padding-left: 10px;"><img
+                                            alt="" src="/ims/static/img/tax/150519132747252.jpg" style="margin-right: 8px;"><a
+                                            href="#" class="bt_link" title="税源专业化管理推进情况调查问卷 [已结束]">税源专业化管理推进情况调查问卷 [已结束]</a></td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </span></td>
+                      </tr>
+                    </tbody>
+                  </table></td>
+                <td width="10" align="left" valign="top"></td>
+
+                <td width="214" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 1px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid;">
+                    <tbody>
+                      <tr>
+                        <td width="2" height="24"></td>
+                        <td width="85" align="center" class="blue2">投诉渠道</td>
+                        <td align="right">&nbsp;</td>
+                        <td width="4"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 0px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid; background-repeat: repeat-x;">
+                    <tbody>
+                      <tr>
+                        <td height="138" align="center" valign="top" style="padding-top: 5px;"><table border="0"
+                            cellspacing="0" cellpadding="0" width="204" align="center">
+                            <tbody>
+                              <tr>
+                                <td height="138" width="98" align="center"><img border="0" alt="" width="82" height="136"
+                                  src="/ims/static/img/tax/121109121140764.jpg"></td>
+                                <td width="8"></td>
+                                <td valign="top" width="98" align="left">
+                                  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td width="8"><img border="0" alt="" width="4" height="5"
+                                          src="/ims/static/img/tax/110330105820514.jpg"></td>
+                                        <td height="20"><a class="zzq" href="#">局长信箱</a></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="5"></td>
+                                      </tr>
+                                      <tr>
+                                        <td width="8"><img border="0" alt="" width="4" height="5"
+                                          src="/ims/static/img/tax/110330105820514.jpg"></td>
+                                        <td height="20"><a class="zzq" href="#">廉政行风投诉</a></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="5"></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="5"></td>
+                                      </tr>
+                                      <tr>
+                                        <td width="8"><img border="0" alt="" width="4" height="5"
+                                          src="/ims/static/img/tax/110330105820514.jpg"></td>
+                                        <td height="20"><a class="zzq" href="#">违法违章举报</a></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="5"></td>
+                                      </tr>
+                                      <tr>
+                                        <td width="8"><img border="0" alt="" width="4" height="5"
+                                          src="/ims/static/img/tax/110330105820514.jpg"></td>
+                                        <td height="20"><a class="zzq" href="#">纳税服务投诉</a></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="5"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                      </tr>
+                    </tbody>
+                  </table></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td width="9" valign="top"><img src="/ims/static/img/tax/jsds_index_19.jpg" width="9" height="98"></td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="998" height="10" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td width="6" valign="top"><img src="/ims/static/img/tax/jsds_index_14.jpg" width="6" height="95"></td>
+        <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td width="166"><img src="/ims/static/img/tax/jsds_index_99.jpg" width="166" height="33"></td>
+                <td valign="top" background="/ims/static/img/tax/jsds_index_16.jpg"><a name="ssxc">&nbsp;</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" height="7" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td width="3"></td>
+                <td height="200" align="left" valign="top"><table width="100%" height="22" border="0" cellpadding="0"
+                    cellspacing="0"
+                    style="BORDER-top: #abc2e4 1px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid;">
+                    <tbody>
+                      <tr>
+                        <td width="6" height="26">&nbsp;</td>
+                        <td width="81" align="center" class="blue2" id="ed1[0]""><a href="#" class="blue2">工作动态</a></td>
+                        <td align="right"><table width="100%" border="0" cellpadding="0" cellspacing="0" id="newsmore">
+                            <tbody style="display: block;">
+                              <tr>
+                                <td height="26" align="right"><a href="#" class="bt_link"
+                                  style="float: right; clear: right; padding-right: 4px; padding-top: 0px; cursor: hand; text-decoration: none; font-family: 宋体;">更多&gt;&gt;</a></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                        <td width="3" align="center"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0" id="news"
+                    style="BORDER-top: #abc2e4 0px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid; background-repeat: repeat-x;">
+                    <tbody style="display: block;">
+                      <tr>
+                        <td height="251" align="left" valign="top" style="padding-left: 12px; padding-top: 5px;"><table
+                            width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="灌云地税“三到位”全面落实税收优惠">灌云地税“三到位”全面落实税收优惠</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-12-04]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="市局征科处举办连云港地税智慧平台和大集中菜单优化培训">市局征科处举办连云港地税智慧平台和大集中菜...</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-12-03]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                              <tr>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="东海地税“四个结合”学习贯彻《中国共产党廉洁自律准则》和《中国共产党纪律处分条例》">东海地税“四个结合”学习贯彻《中国共产党廉...</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-12-02]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="灌云地税纵深推进行政审批显成效">灌云地税纵深推进行政审批显成效</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-12-01]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                              <tr>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="市局七分局完善基础信息维护    确保登记信息零差错">市局七分局完善基础信息维护 确保登记...</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-30]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="市局五分局开展“送温暖、献爱心慈善一日捐”活动">市局五分局开展“送温暖、献爱心慈善一日捐”...</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-27]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                              <tr>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="“银税互动” 助力小微企业发展活动正式启动">“银税互动” 助力小微企业发展活动正式启动</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-26]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="全市志愿服务工作现场交流会在市局召开">全市志愿服务工作现场交流会在市局召开</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-25]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                              <tr>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="市局一分局荣获“十二五”企业文化建设">市局一分局荣获“十二五”企业文化建设</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-24]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="赣榆地税“征管查”三位一体创立查管联动机制">赣榆地税“征管查”三位一体创立查管联动机制</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-23]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                              <tr>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="东海地税借力“三平台” 加强国地税合作">东海地税借力“三平台” 加强国地税合作</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-20]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="赣榆地税依托大数据全面拓展税收风险识别模式">赣榆地税依托大数据全面拓展税收风险识别模式</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-19]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                              <tr>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="市局召开思想政治工作研讨会暨联席会议">市局召开思想政治工作研讨会暨联席会议</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-18]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="“十三五”地税规划编制启动工作交流会召开">“十三五”地税规划编制启动工作交流会召开</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-17]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                              <tr>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="连云港地税局荣获全市首届文化艺术展示特别贡献奖">连云港地税局荣获全市首届文化艺术展示特别贡...</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-16]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="市局胡军局长到市局一分局走访调研">市局胡军局长到市局一分局走访调研</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-13]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                              <tr>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="东海地税树立“三种意识”构建全面联动纳服新格局">东海地税树立“三种意识”构建全面联动纳服新...</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-12]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="市局举办“从禅学智慧中领悟人生”专题讲座">市局举办“从禅学智慧中领悟人生”专题讲座</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-11]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                              <tr>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="连云港地税局社会主义核心价值观教育基地建成揭牌">连云港地税局社会主义核心价值观教育基地建成...</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-10]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                <td style=""><table cellpadding="0" cellspacing="0" border="0" width="96%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="24" width="330"><font style="padding: 0 7px 0 4px;"><img
+                                            src="/ims/static/img/tax/090203205824930.jpg" align="absmiddle" border="0"></font><a
+                                          href="#" class="bt_link" title="创新绩效考核 激励干事创业连云港地税劳动竞赛圆满收官">创新绩效考核 激励干事创业连云港地税劳动竞...</a></td>
+                                        <td width="80" align="right" class="bt_date">[2015-11-09]</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                      </tr>
+                    </tbody>
+                  </table></td>
+                <td width="10">&nbsp;</td>
+                <td width="214" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 1px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid;">
+                    <tbody>
+                      <tr>
+                        <td width="2" height="26"></td>
+                        <td width="85" height="24" align="center" class="blue2">专题专栏</td>
+                        <td align="right"><a href="/col/col43023/index.html" class="bt_link"
+                          style="float: right; clear: right; padding-right: 4px; padding-top: 0px; cursor: hand; text-decoration: none; font-family: 宋体;">更多&gt;&gt;</a></td>
+                        <td width="4"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                    style="BORDER-top: #abc2e4 0px solid; BORDER-right: #abc2e4 1px solid; BORDER-left: #abc2e4 1px solid; BORDER-bottom: #abc2e4 1px solid; background-repeat: repeat-x;">
+                    <tbody>
+                      <tr>
+                        <td height="251" align="left" valign="top" style="padding-left: 10px; padding-top: 5px;"><table
+                            border="0" cellspacing="0" cellpadding="0" height="8">
+                            <tbody>
+                              <tr>
+                                <td></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="190" height="33" style="margin-bottom: 16px">
+                            <tbody>
+                              <tr>
+                                <td background="/ims/static/img/tax/110622100019419.jpg"><a class="bluex"
+                                  style="padding-left: 11px; font-size: 10pt" href="/col/col43023/index.html"><strong>地税文化</strong></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="190" height="33" style="margin-bottom: 16px">
+                            <tbody>
+                              <tr>
+                                <td background="/ims/static/img/tax/110622100019419.jpg"><a class="bluex"
+                                  style="padding-left: 11px; font-size: 10pt" href="/col/col10298/index.html"><strong>强税论坛</strong></a></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                      </tr>
+                    </tbody>
+                  </table></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td width="9" valign="top"><img src="/ims/static/img/tax/jsds_index_19.jpg" width="9" height="98"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table width="998" height="10" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table width="998" height="10" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="998" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td width="6" height="30">&nbsp;</td>
+        <td width="982" align="center" style="padding-left: 10px;"><table width="976" border="0" cellspacing="0"
+            cellpadding="0">
+            <tbody>
+              <tr align="center">
+                <td class="bluex"><a href="#" class="bluex">联系我们</a><font style="padding: 0 10px; font-family:" 宋体';'="">-</font><a
+                  href="#" class="bluex">免责声明</a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td width="6">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="998" height="101" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td align="center" valign="top" style="padding-top: 6px; line-height: 22px;">主办单位：江苏省连云港地方税务局 地址：江苏省连云港市海州区海昌北路66号
+          邮编：222001<br> 维护单位：江苏省连云港地方税务局纳税服务局 电话：0518-12366<br> 备案序号：<a href="#" class="bt_link">苏ICP备05017665号</a><br>
+          任何人单位不得以任何方式复制或变相复制本网站全部或部分信息 建议使用IE6.0以上，分辨率1024*768浏览本网站
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</html>

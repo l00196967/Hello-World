@@ -1,0 +1,11 @@
+<header>
+  <div class="hd-body no-logo">
+    <div class="hd-logo icon-e60a"></div>
+    <h1>天凯会计实训系统</h1>
+      <img class="hd-userimg" src="//work.alibaba-inc.com/photo/$vmUtil.loginId.30x30.jpg" />
+      <div class="hd-username" id="usernameMenu">存远</div>
+    </div>
+  </div>
+</header>
+$control.setTemplate("side_menu.vm")
+

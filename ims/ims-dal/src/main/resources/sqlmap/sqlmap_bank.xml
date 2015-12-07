@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="bank" >
+    <resultMap id="bnkAccountMap" type="BankAccountDO">
+        <result property="id" column="id" />
+        <result property="account" column="account" />
+        <result property="company" column="company" />
+        <result property="legal" column="legal" />
+        <result property="balance" column="balance" />
+        <result property="createTime" column="create_time" />
+    </resultMap>
+
+     <resultMap id="bankRecordMap" type="BankRecordDO">
+        <result property="id" column="id" />
+        <result property="account" column="account" />
+        <result property="opType" column="op_type" />
+        <result property="opTime" column="op_time" />
+        <result property="balance" column="balance" />
+        <result property="amount" column="amount" />
+    </resultMap>
+
+    <insert id="add_account" parameterType="BankAccountDO" useGeneratedKeys="true" keyProperty="id">
+        insert into t_bank_account (account, company, legal, balance, createTime)
+        values (#{account}, #{company}, #{legal}, #{balance}, #{createTime})
+    </insert>
+
+    <select id="get_account" resultMap="bnkAccountMap">
+      select * from t_bank_account where account = #{account}
+    </select>
+
+    <select id="get_accounts" resultMap="bnkAccountMap">
+      select * from t_bank_account where account like CONCAT(#{account}, '%')
+    </select>
+
+    <update id="update_balance" parameterType="BankAccountDO">
+        update t_bank_account set balance = #{balance} where id = #{id}
+    </update>
+
+    <insert id="add_record" parameterType="BankRecordDO" useGeneratedKeys="true" keyProperty="id">
+        insert into t_bank_record (account, op_type, op_time, amount, balance)
+        values (#{account}, #{opType}, #{opTime}, #{amount}, #{balance})
+    </insert>
+
+    <select id="get_records" resultMap="bankRecordMap">
+        select * from t_bank_record
+        <where>
+            <if test="account != null">
+                 account = #{account}
+            </if>
+            <if test="from != null">
+                AND op_time > #{from}
+            </if>
+            <if test="to != null">
+                <![CDATA[AND op_time < #{to}]]>
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,37 @@
+$rundata.setLayout("layout_index.vm")
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head lang="zh-CN">
+<meta charset="utf-8">
+<link rel="stylesheet" href="/ims/static/css/login.css" />
+</head>
+<body style="height: 100%; background-color: #E7F1FA">
+  <div class="head" style="width: 100%; ">
+    <h1 class="logo">天凯会计实训系统</h1>
+  </div>
+  <div class="loginbackground"></div>
+  <div class="login-win" style="position: absolute; right: 100px; top: 50%; margin-top: -200px">
+    <form name="loginForm" id="loginForm" action="" method="post" class="login-form">
+      <fieldset>用户登录</fieldset>
+      <div class="form-item">
+        <input id="username" type="text" class="form-input form-full-size" placeholder="用户名"/>
+      </div>
+      <div class="form-item">
+        <input id="loginPassword" class="form-input form-full-size" type="password" placeholder="密码">
+      </div>
+      <div class="form-item">
+        <label id="keepLogin" class="form-checkbox">
+        <input type="checkbox" id="loginMaintain" name="login_maintain" /> <span>保持登录</span>
+        </label>
+        <span class="fn-right">
+        <a href="http://ihave-test.alibaba-inc.com/asset/password/resetPasswordCheckAccountVerfication.htm" target="_blank">忘记密码</a>
+          | <a href="https://itkbm.alibaba-inc.com/listByCat.htm?catId=8305737" target="_blank">帮助</a>
+        </span>
+      </div>
+      <div class="form-item">
+        <button type="button" class="form-button form-submit form-full-size" onclick="window.location='/company/add.htm'">登录</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

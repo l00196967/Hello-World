@@ -1,0 +1,93 @@
+<div id="sideMenu" class="side-menu">
+  <script type="text/javascript">
+    (function() {
+        document.write(sessionStorage.getItem('sidemenuHtml') || '');
+        var sidemenuWrapper = document.getElementById('sideMenu').children[1];
+        if (sidemenuWrapper) {
+            sidemenuWrapper.children[1].scrollTop = sessionStorage.getItem('sidemenuScrollTop') || 0;
+        }
+    })();
+  </script>
+</div>
+
+<script>
+    KISSY.use("ims/bootstrap, cute/sidemenu/", function(S, jIMS, SideMenu) {
+      var path = location.pathname;
+      if(path && path != "/"){
+          sessionStorage.setItem("current_menu", path.substring(1, path.indexOf(".")).replace("/", "_"));
+      }
+
+      new SideMenu({
+          isFixed : true,
+          target : '#sideMenu',
+          activeId : sessionStorage.getItem("current_menu") || "index",
+          clickEvent : function(url, menu) {
+              location.href = url;
+          },
+          data : [
+            {
+                "id": "company_mgr",
+                "text": "工商系统",
+                "children": [
+                   {
+                       "id": "company_add",
+                       "text": "工商注册",
+                       "url": jIMS.context.path + "/company/add.htm"
+                   }
+                ],
+                "icon": "e610"
+            },
+            {
+                "id": "bank_mgr",
+                "text": "银行系统",
+                "children": [
+                   {
+                       "id": "bank_add",
+                       "text": "开户",
+                       "url": jIMS.context.path + "/bank/add.htm"
+                   },
+                   {
+                       "id": "bank_saving",
+                       "text": "存取款",
+                       "url": jIMS.context.path + "/bank/saving.htm"
+                   },
+                   {
+                       "id": "bank_statement",
+                       "text": "对账单",
+                       "url": jIMS.context.path + "/bank/statement.htm"
+                   }
+                ],
+                "icon": "e610"
+            },
+            {
+                "id": "system_mgr",
+                "text": "系统管理",
+                "children": [
+                     {
+                          "id": "user_list",
+                          "text": "用户管理",
+                          "url": jIMS.context.path + "/user/list.htm"
+                     },
+                     {
+                         "id": "role_list",
+                         "text": "角色管理",
+                         "url": jIMS.context.path + "/role/list.htm"
+                     },
+                     {
+                         "id": "system_licence",
+                         "text": "生成Licence",
+                         "url": jIMS.context.path + "/system/licence.htm"
+                     }
+                 ],
+                "icon": "e622"
+            },
+            {
+                "id": "help",
+                "text": "帮助中心",
+                "url": jIMS.context.path + "/help.htm",
+                "icon": "e630"
+            }
+        ]
+      });
+    });
+</script>

@@ -1,0 +1,22 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- cute kissy -->
+<link type="text/css" rel="stylesheet" href="/ims/static/css/cute-min.css" />
+<link type="text/css" rel="stylesheet" href="/ims/static/css/iconfont/iconfont.css" />
+<link type="text/css" rel="stylesheet" href="/ims/static/css/main.css" />
+
+
+<script type="text/javascript" src="/ims/static/js/cute/seed-min.js"></script>
+<script type="text/javascript" src="/ims/static/js/cute/kissy.js"></script>
+<script type="text/javascript" src="/ims/static/js/cute/config-min.js"></script>
+<script type="text/javascript" src="/ims/static/js/cute/ui.js"></script>
+
+<script type="text/javascript" src="/ims/static/js/common.js"></script>
+<script type="text/javascript" src="/ims/static/js/company.js"></script>
+<script type="text/javascript" src="/ims/static/js/bank.js"></script>
+<script type="text/javascript" src="/ims/static/js/user.js"></script>
+<script type="text/javascript" src="/ims/static/js/system.js"></script>
+
+<title>天凯会计实训系统</title>
+</head>

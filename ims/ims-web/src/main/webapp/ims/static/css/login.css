@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+html {
+	color: #000;
+	background: #fff;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code,
+	form, fieldset, legend, input, textarea, p, blockquote, th, td, hr,
+	button, article, aside, details, figcaption, figure, footer, header,
+	hgroup, menu, nav, section {
+	margin: 0;
+	padding: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block
+}
+
+body, button, input, select, textarea {
+	font: 12px/1.5 tahoma, arial, "Hiragino Sans GB", \5b8b\4f53
+}
+
+input, select, textarea {
+	font-size: 100%
+}
+
+fieldset, img {
+	border: 0
+}
+
+.login-win {
+	float: left;
+	position: relative;
+	left: 115px;
+	margin-left: 50%;
+	margin-top: 80px;
+	width: 360px;
+	min-height: 360px;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px 0px rgba(200, 200, 200, .8);
+}
+
+.login-win .login-form {
+	padding: 0 15px;
+	min-height: 300px;
+}
+
+.login-win fieldset {
+	margin-bottom: 8px;
+	padding: 0 10px;
+	height: 48px;
+	font-size: 16px;
+	color: #646464;
+	border: 0 none;
+	border-bottom: 1px solid #ebebeb;
+	line-height: 3;
+	font-weight: 700;
+}
+
+.login-win .form-item {
+	clear: both;
+	padding: 8px 14px;
+}
+
+.form-item .form-label {
+	float: left;
+	width: 64px;
+	line-height: 34px;
+}
+
+.form-item .form-item-content {
+	margin-left: 64px;
+}
+
+.form-item .form-item-content p {
+	margin-top: 8px;
+	overflow: hidden;
+}
+
+.login-win .form-explain {
+	margin: 0 14px;
+	padding: 3px 0;
+}
+
+.login-win .form-helper {
+	color: #b2b2b2;
+}
+
+.form-full-size {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.form-input {
+	padding: 0 12px;
+	height: 36px;
+	border: 1px solid #d8d8d8;
+	font-size: 14px;
+	line-height: 36px;
+	border-radius: 3px;
+	color: #666;
+	transform: translateZ(0);
+}
+
+.form-input:focus {
+	outline: 0 none;
+	border-color: #f80;
+}
+
+.form-button {
+	padding: 0;
+	border-radius: 3px;
+	border: 0 none;
+}
+
+.form-submit {
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #ff8400;
+	font-weight: 700;
+}
+
+.form-submit:focus {
+	outline: 0 none;
+	background-color: #ff9d09;
+}
+
+.form-button-blue {
+	padding: 0 8px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #78c8ef;
+	color: #fff;
+	font-size: 14px;
+}
+
+.head {
+	margin-bottom: 8px;
+}
+
+.head .logo {
+	width: 184px;
+	height: 45px;
+	text-indent: -300px;
+	overflow: hidden;
+}
+
+.loginbackground {
+	background-image: url('/ims/static/img/bg.png') !important;
+	background-size: 100% 100% !important;
+	background-repeat: no-repeat\9 !important;
+	background-image: none\9 !important;
+	width: 615px !important;
+	height: 425px !important;
+	top: 50%;
+	margin-top: -252px !important;
+	margin-left: -500px;
+	left: 50%;
+	position: relative;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    $control.setTemplate("header.vm")
+
+    <!-- <body> -->
+    <script type="text/javascript">
+      (function(){
+    	  #if($rundata.getRequest().getParameter("layout") != false)
+    		  var collapsed = (document.cookie.indexOf('sidemenu-collapsed=true') > -1);
+              document.write('<body class="cute3' + (collapsed ? ' sidemenu-collapsed' : '') + '">');
+          #else
+              document.write('<body class="cute3 hide-sidemenu">');
+          #end
+      })();
+    </script>
+
+      #if($rundata.getRequest().getParameter("layout") != false)
+        $control.setTemplate("banner.vm")
+      #end
+        <div class="page">
+            <div class="main">
+                $screen_placeholder
+            </div>
+        </div>
+    </body>
+</html>

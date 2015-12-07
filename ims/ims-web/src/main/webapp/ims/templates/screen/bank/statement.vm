@@ -1,0 +1,51 @@
+<section class="section level-1">
+  <h1 class="section-title">
+    <p>对账单</p>
+  </h1>
+  <div class="section-body">
+    <div class="box">
+      <section class="section level-2">
+        <div class="section-body">
+          <form id="form_search" method="post" class="form label-s" autocomplete="off">
+            <div class="row">
+              <div class="span span2">
+                <label class="control-label">账户</label>
+                <div class="controls">
+                  <input id="account" name="account" type="text" class="text" />
+                </div>
+              </div>
+              <div class="span span3">
+                <label class="control-label">时间</label>
+                <div class="controls">
+                  <input id="date" name="date" type="text" class="selector date-selector" readonly />
+                </div>
+              </div>
+              <div class="span span2">
+                <div class="controls">
+                  <input id="btn_search" type="button" class="btn btn-l" value="查询" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div id="buttons" class="hide">
+          <a href="download.json" class="btn btn-l" />下载</a>
+        </div>
+      </section>
+    </div>
+
+    <div class="box">
+      <section class="section level-2">
+        <div class="grid-wrapper">
+          <div id="grid" class="grid"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<script>
+	KISSY.use("ims/bank/statement", function(S, M) {
+		M.init();
+	});
+</script>

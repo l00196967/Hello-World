@@ -1,0 +1,87 @@
+<section id="section_add" class="section level-1">
+  <h1 class="section-title">
+    <p>工商注册</p>
+  </h1>
+  <div class="section-body">
+    <form id="form_add" class="form label-m" autocomplete="off">
+      $csrfToken.hiddenField
+      <div class="box">
+        <section class="section level-2">
+          <h1 class="section-title">
+            <p>基本信息</p>
+            <span>
+                <input id="print" type="button" class="btn btn-l" value="打印营业执照" />
+            </span>
+          </h1>
+
+          <div class="section-body">
+            <div class="row first_row">
+              <div class="span w450">
+                <label class="control-label">公司名称<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="name" name="name" type="text" class="text" required />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span w450">
+                <label class="control-label">公司类型<i class="required">*</i></label>
+                <div class="controls">
+                  <select id="type" name="type" dict-key="company_type" value="type1" required></select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span w450">
+                <label class="control-label">经营地址<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="address" name="address" type="text" class="text" required />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span w450">
+                <label class="control-label">法定代表人<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="address" name="address" type="text" class="text" required />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span w450">
+                <label class="control-label">注册资本<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="address" name="address" type="text" class="text" required number />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span w450">
+                <label class="control-label">经营范围<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="address" name="address" type="text" class="text" required />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span w450">
+                <label class="control-label">营业期限<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="expireTime" name="expireTime" type="text" class="text calendar" required />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </form>
+  </div>
+</section>
+
+<iframe id="content" src="print.htm?layout=false" class="hide" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="600" height="800"></iframe>
+
+<script type="text/javascript">
+	KISSY.use("ims/company/add", function(S, M) {
+		M.init();
+	});
+</script>

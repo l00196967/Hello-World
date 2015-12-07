@@ -1,0 +1,259 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="/ims/static/css/tax/newtax.css" />
+</head>
+
+<body>
+  <!--load in active-->
+  <div id="div_calogin"></div>
+  <!--end-->
+  <div id="center">
+    <div id="logo" style="width: 100%; height: 69px;">
+      <div style="float: right; font-weight: normal; padding: 10px;">
+        <a href="http://wwwds.gov.cn/" target="_new">地税网上办税</a>
+      </div>
+    </div>
+    <div>
+      <span id="span_Lmenu_MAINMENU"><div class="menu" id="Lmenu_MAINMENU">
+          <ul id="ul_Lmenu_MAINMENU">
+            <li id="li_Lmenu_MAINMENU_0"><a href="#"><span class="left"><span class="right">主页</span></span></a></li>
+            <li id="li_Lmenu_MAINMENU_1" rel="ul_Lmenu_MAINMENU_1" class="moresub"><a href="#"><span class="left"><span
+                  class="right">我的导航</span></span></a>
+              <ul id="ul_Lmenu_MAINMENU_1" class="sub">
+                <li id="li_Lmenu_MAINMENU_1_0"><a href="#"><span class="left"><span class="right"><font
+                        color="gray">网上办税导航</font></span></span></a></li>
+                <li id="li_Lmenu_MAINMENU_1_1"><a href="#"><span class="left"><span class="right"><font
+                        color="gray">网上操作导航</font></span></span></a></li>
+              </ul></li>
+            <li id="li_Lmenu_MAINMENU_2"><a href="#"><span class="left"><span class="right"><font
+                    color="gray">我要申报</font></span></span></a></li>
+            <li id="li_Lmenu_MAINMENU_3"><a href="#"><span class="left"><span class="right"><font
+                    color="gray">我要申请</font></span></span></a></li>
+            <li id="li_Lmenu_MAINMENU_4" rel="ul_Lmenu_MAINMENU_4" class="moresub"><a href="#"><span class="left"><span
+                  class="right">我的发票</span></span></a>
+              <ul id="ul_Lmenu_MAINMENU_4" class="sub">
+                <li id="li_Lmenu_MAINMENU_4_0"><a href="#"><span class="left"><span class="right"><font
+                        color="gray">普通发票网络开具</font></span></span></a></li>
+                <li id="li_Lmenu_MAINMENU_4_1"><a href="#"><span class="left"><span class="right"><font
+                        color="gray">我要认证</font></span></span></a></li>
+                <li id="li_Lmenu_MAINMENU_4_2"><a href="#"><span class="left"><span class="right"><font
+                        color="gray">我要报税</font></span></span></a></li>
+                <li id="li_Lmenu_MAINMENU_4_3"><a href="#"><span class="left"><span class="right"><font
+                        color="gray">发票查询</font></span></span></a></li>
+              </ul></li>
+            <li id="li_Lmenu_MAINMENU_5" rel="ul_Lmenu_MAINMENU_5" class="moresub"><a href="#"><span class="left"><span
+                  class="right">我的信息</span></span></a>
+              <ul id="ul_Lmenu_MAINMENU_5" class="sub">
+                <li id="li_Lmenu_MAINMENU_5_0" rel="ul_Lmenu_MAINMENU_5_0" class="moresub"><a href="#"><span class="left"><span
+                      class="right">我的办税事项</span></span></a>
+                  <ul id="ul_Lmenu_MAINMENU_5_0" class="sub">
+                    <li id="li_Lmenu_MAINMENU_5_0_0"><a href="#"><span class="left"><span class="right"><font
+                            color="gray">接收回执</font></span></span></a></li>
+                    <li id="li_Lmenu_MAINMENU_5_0_1"><a href="#"><span class="left"><span class="right"><font
+                            color="gray">办税进度查询</font></span></span></a></li>
+                    <li id="li_Lmenu_MAINMENU_5_0_2"><a href="#"><span class="left"><span class="right"><font
+                            color="gray">其他申报事项</font></span></span></a></li>
+                    <li id="li_Lmenu_MAINMENU_5_0_3"><a href="#"><span class="left"><span class="right"><font
+                            color="gray">办税员信息维护</font></span></span></a></li>
+                    <li id="li_Lmenu_MAINMENU_5_0_4"><a href="#"><span class="left"><span class="right"><font
+                            color="gray">办税员管理网上申辩调整</font></span></span></a></li>
+                  </ul></li>
+                <li id="li_Lmenu_MAINMENU_5_1" rel="ul_Lmenu_MAINMENU_5_1" class="moresub"><a href="#"><span class="left"><span
+                      class="right">我的提醒</span></span></a>
+                  <ul id="ul_Lmenu_MAINMENU_5_1" class="sub">
+                    <li id="li_Lmenu_MAINMENU_5_1_0"><a href="#"><span class="left"><span class="right"><font
+                            color="gray">涉税提醒</font></span></span></a></li>
+                  </ul></li>
+                <li id="li_Lmenu_MAINMENU_5_2" rel="ul_Lmenu_MAINMENU_5_2" class="moresub"><a href="#"><span class="left"><span
+                      class="right">我的国税档案</span></span></a>
+                  <ul id="ul_Lmenu_MAINMENU_5_2" class="sub">
+                    <li id="li_Lmenu_MAINMENU_5_2_0" rel="ul_Lmenu_MAINMENU_5_2_0" class="moresub"><a href="#"><span
+                        class="left"><span class="right">登记类</span></span></a>
+                      <ul id="ul_Lmenu_MAINMENU_5_2_0" class="sub">
+                        <li id="li_Lmenu_MAINMENU_5_2_0_0"><a href="#"><span class="left"><span class="right"><font
+                                color="gray">开业登记表</font></span></span></a></li>
+                        <li id="li_Lmenu_MAINMENU_5_2_0_1"><a href="#"><span class="left"><span class="right"><font
+                                color="gray">出口退税认定情况</font></span></span></a></li>
+                        <li id="li_Lmenu_MAINMENU_5_2_0_2"><a href="#"><span class="left"><span class="right"><font
+                                color="gray">税种登记表</font></span></span></a></li>
+                      </ul></li>
+                    <li id="li_Lmenu_MAINMENU_5_2_1" rel="ul_Lmenu_MAINMENU_5_2_1" class="moresub"><a href="#"><span
+                        class="left"><span class="right">发票类</span></span></a>
+                      <ul id="ul_Lmenu_MAINMENU_5_2_1" class="sub">
+                        <li id="li_Lmenu_MAINMENU_5_2_1_0"><a href="#"><span class="left"><span class="right"><font
+                                color="gray">发票购领记录</font></span></span></a></li>
+                        <li id="li_Lmenu_MAINMENU_5_2_1_1"><a href="#"><span class="left"><span class="right"><font
+                                color="gray">发票购领资格</font></span></span></a></li>
+                        <li id="li_Lmenu_MAINMENU_5_2_1_2"><a href="#"><span class="left"><span class="right"><font
+                                color="gray">发票结存信息</font></span></span></a></li>
+                        <li id="li_Lmenu_MAINMENU_5_2_1_3"><a href="#"><span class="left"><span class="right"><font
+                                color="gray">发票验销记录</font></span></span></a></li>
+                        <li id="li_Lmenu_MAINMENU_5_2_1_4"><a href="#"><span class="left"><span class="right"><font
+                                color="gray">发票缴销记录</font></span></span></a></li>
+                      </ul></li>
+                    <li id="li_Lmenu_MAINMENU_5_2_2" rel="ul_Lmenu_MAINMENU_5_2_2" class="moresub"><a href="#"><span
+                        class="left"><span class="right">申报征收类</span></span></a>
+                      <ul id="ul_Lmenu_MAINMENU_5_2_2" class="sub">
+                        <li id="li_Lmenu_MAINMENU_5_2_2_0"><a href="#"><span class="left"><span class="right"><font
+                                color="gray">税款缴纳信息</font></span></span></a></li>
+                      </ul></li>
+                  </ul></li>
+                <li id="li_Lmenu_MAINMENU_5_3" rel="ul_Lmenu_MAINMENU_5_3" class="moresub"><a href="#"><span class="left"><span
+                      class="right">电子签名</span></span></a>
+                  <ul id="ul_Lmenu_MAINMENU_5_3" class="sub">
+                    <li id="li_Lmenu_MAINMENU_5_3_0"><a href="#"><span class="left"><span class="right"><font
+                            color="gray">电子签名测试</font></span></span></a></li>
+                    <li id="li_Lmenu_MAINMENU_5_3_1"><a href="#"><span class="left"><span class="right"><font
+                            color="gray">电子签名验证 </font></span></span></a></li>
+                  </ul></li>
+                <li id="li_Lmenu_MAINMENU_5_4" rel="ul_Lmenu_MAINMENU_5_4" class="moresub"><a href="/newtax/menu/menu_id=604"><span
+                    class="left"><span class="right">我的通知公告</span></span></a>
+                  <ul id="ul_Lmenu_MAINMENU_5_4" class="sub">
+                    <li id="li_Lmenu_MAINMENU_5_4_0"><a href="#"><span class="left"><span class="right"><font
+                            color="gray">电子签名测试</font></span></span></a></li>
+                    <li id="li_Lmenu_MAINMENU_5_4_1"><a href="#"><span class="left"><span class="right"><font
+                            color="gray">电子签名验证 </font></span></span></a></li>
+                  </ul></li>
+              </ul></li>
+            <li id="li_Lmenu_MAINMENU_6"><a href="#"><span class="left"><span class="right"><font
+                    color="gray">我的收藏夹</font></span></span></a></li>
+            <li id="li_Lmenu_MAINMENU_7"><a href="#"><span class="left"><span class="right"><font
+                    color="gray">小微企业税银互动服务</font></span></span></a></li>
+          </ul>
+        </div> </span>
+      <table class="line" cellpadding="0" cellspacing="0">
+      </table>
+      <div id="loading" align="center" style="position: absolute; display: none; top: 30%; left: 40%; z-index: 99">
+        <img src="/ims/static/img/tax/loading.gif" width=50 height=50 alt=""> <br> <font color="green"><strong>读取数据，请稍等...</strong></font>
+      </div>
+    </div>
+    <div id="main">
+      <form name="f" action="/tax/country4.htm" method="POST">
+        <div>
+          <div id="left">
+            <div style="padding: 0px 0px 0px 0px; float: left; margin: 1px 0 0 0;">
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="632"
+                height="200">
+                <param name="movie" value="/ims/static/img/tax/fl2.swf">
+                <param name="quality" value="high">
+                <param name="wmode" value="transparent">
+                <embed src="/ims/static/img/tax/fl2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                  type="application/x-shockwave-flash" width="632" height="200">
+              </object>
+            </div>
+          </div>
+
+          <div id="right">
+            <div class="title1">&nbsp;</div>
+            <div class="title_bg">
+              <div style="padding-top: 1px;">
+                用户名：
+                <input name="j_username" type="text" style="width: 120px;" class="input" size="18" maxlength="30">
+              </div>
+              <div style="padding-top: 1px;">
+                密&nbsp;&nbsp;&nbsp;&nbsp;码：
+                <input id="j_password" type='password' name='j_password' size="18" maxlength="15" style="width: 120px;"
+                  class="input">
+              </div>
+              <div style="padding-top: 1px;">
+                验证码：
+                <input id="j_captcha" type='text' name='j_captcha' size='12' style="width: 120px;" class="input">
+              </div>
+              <div style="padding: 1px;">
+                <input type="button" class="buttonca" value="CA证书登录" />
+                &nbsp;
+                <input id="proceed" type="submit" class="button" value="登录" />
+                &nbsp;
+                <input id="proceed1" type="reset" class="button" value="重置" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="leftbott">
+          <div class="bstxx">
+            <div id="bstqt2">&nbsp;</div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2_2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">涉税提醒</a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2_2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">税务登记信息 </a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2_2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">发票购领资格信息 </a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2_2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">税款缴纳信息 </a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2_2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">办税进度查询 </a><br>
+            </div>
+          </div>
+          <div class="bstznhd">
+            <div id="bstqt2">&nbsp;</div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">纳税信用公众查询</a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">我要建议</a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">网上调查</a><br>
+            </div>
+          </div>
+          <div class="bstzxfd">
+            <div id="bstqt2">&nbsp;</div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">网上咨询</a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">税法知识库</a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">热点问题</a><br>
+            </div>
+          </div>
+          <div class="bsthelp">
+            <div id="bstqt2">&nbsp;</div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">汇算清缴一站通</a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">网上操作导航</a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2_2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">小微企业金融服务</a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2_2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">我要打印</a><br>
+            </div>
+            <div style="padding-top: 6px; padding-left: 10px;">
+              <img src="/ims/static/img/tax/dot2_2.gif" align="absmiddle">&nbsp;&nbsp;<a href="#">接收回执</a><br>
+            </div>
+          </div>
+          <div class="bstfw">
+            <div id="bstqt2">&nbsp;</div>
+            <img src="/ims/static/img/tax/bstwybs_bjhb.gif">
+            <div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">登记</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="#">发票</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">认定</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">申报征收</a>
+            </div>
+            <div
+              style="background: url(/ims/static/img/tax/bstwybs_bj3_1.gif) no-repeat; width: 265px; height: 55px; line-height: 55px; vertical-align: middle;">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+                href="#">办税导航</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="#" target="_new">下载中心</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="copyright">
+      | 2001-2010 | 版权所有 江苏省国家税务局 主办 |<br /> | 地址：江苏省南京市中山北路55号 | 邮编：210008 | 备案序号：苏ICP备05002258 |
+    </div>
+  </div>
+</body>
+</html>

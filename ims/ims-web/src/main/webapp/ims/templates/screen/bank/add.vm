@@ -1,0 +1,58 @@
+<section id="section_add" class="section level-1">
+  <h1 class="section-title">
+    <p>新开户</p>
+  </h1>
+  <div class="section-body">
+    <div id="tip_ok" class="tip tip-msg x-hide-display">执行成功！</div>
+    <div id="tip_error" class="tip tip-error x-hide-display">执行失败！</div>
+    <form id="form_add" class="form label-m" autocomplete="off">
+      $csrfToken.hiddenField
+      <div class="box">
+        <section class="section level-2">
+          <h1 class="section-title">
+            <p>基本信息</p>
+          </h1>
+          <div class="section-body">
+            <div class="row first_row">
+              <div class="span w450">
+                <label class="control-label">账号<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="account" name="account" type="text" class="text" required />
+                </div>
+              </div>
+            </div>
+            <div class="row first_row">
+              <div class="span w450">
+                <label class="control-label">公司名称<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="company" name="company" type="text" class="text" required />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span w450">
+                <label class="control-label">法定代表人<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="legal" name="legal" type="text" class="text" required />
+                </div>
+              </div>
+            </div>
+            <div id="row_submit" class="row">
+              <div class="span w450">
+                <div class="controls">
+                  <input id="btn_submit" type="button" class="btn btn-l" value="提交" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </form>
+  </div>
+</section>
+
+<script type="text/javascript">
+	KISSY.use("ims/bank/account", function(S, M) {
+		M.init();
+	});
+</script>

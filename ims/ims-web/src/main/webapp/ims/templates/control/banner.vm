@@ -1,0 +1,12 @@
+<header>
+  <div class="hd-body no-logo">
+    <div class="hd-logo icon-e60a"></div>
+    <h1>天凯会计实训系统</h1>
+    <div class="hd-menu">
+      <img class="hd-userimg" src="" />
+      <div class="hd-username" id="usernameMenu">存远</div>
+    </div>
+  </div>
+</header>
+$control.setTemplate("side_menu.vm")
+

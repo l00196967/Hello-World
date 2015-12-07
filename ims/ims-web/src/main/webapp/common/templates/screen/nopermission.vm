@@ -1,0 +1,12 @@
+<section class="section">
+    <div class="section-body noPermission-wrap">
+        <div class="noPermission-image"></div>
+        <div class="noPermission-message">Sorry，您的权限不够，无法访问该页面。</div>
+        <div class="noPermission-message">
+            #if($!rundata.context.get('type'))
+            <a href="$acl_apply?type=role&ownerName=dna" target="_blank"> 申请角色（<b>推荐</b>） </a>
+            <a href="$acl_apply?type=$!rundata.context.get('type')&searchKey=$!rundata.context.get('name')&ownerName=dna" target="_blank"> 申请权限 </a>
+            #end
+        </div>
+    </div>
+</section>

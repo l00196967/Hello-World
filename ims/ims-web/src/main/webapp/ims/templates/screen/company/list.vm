@@ -1,0 +1,48 @@
+<section class="section level-1">
+  <h1 class="section-title">
+    <p>注册查询</p>
+  </h1>
+  <div class="section-body">
+    <div class="box">
+      <section class="section level-2">
+        <div class="section-body">
+          <form id="form_search" method="post" class="form label-s" autocomplete="off">
+            <div class="row">
+              <div class="span span3">
+                <label class="control-label">工商注册号</label>
+                <div class="controls">
+                  <input id="" type="text" class="text" name="model.name" placeholder="输入工商注册号" />
+                </div>
+              </div>
+              <div class="span span3">
+                <label class="control-label">公司名称</label>
+                <div class="controls">
+                  <input type="text" class="text" name="model.identifier" placeholder="输入公司名称" />
+                </div>
+              </div>
+              <div class="span span3">
+                <div class="buttons-div-left button-left">
+                  <input id="btn_search" type="button" class="btn btn-l" value="查询" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <div class="box">
+      <section class="section level-2">
+        <div class="grid-wrapper">
+          <div id="grid" class="grid"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<script>
+	KISSY.use("ims/company/list", function(S, M) {
+		M.init();
+	});
+</script>

@@ -1,0 +1,71 @@
+<section id="section_add" class="section level-1">
+  <h1 class="section-title">
+    <p>存取款</p>
+  </h1>
+  <div class="section-body">
+    <form id="form_add" class="form label-m" autocomplete="off">
+      $csrfToken.hiddenField
+      <div class="box">
+        <section class="section level-2">
+          <div class="section-body">
+            <div class="row first_row">
+              <div class="span w450">
+                <label class="control-label">账户<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="account" name="account" type="text" class="selector" readonly required />
+                </div>
+              </div>
+            </div>
+            <div class="row first_row">
+              <div class="span w450">
+                <label class="control-label">业务类型<i class="required">*</i></label>
+                <div class="controls">
+                  <label class="cute-group" dict-key="op_type" value="cun">
+                    <input name="opType" type="radio" />
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span w450">
+                <label class="control-label">金额<i class="required">*</i></label>
+                <div class="controls">
+                  <input id="amount" name="amount" type="text" class="text" required number/>
+                </div>
+              </div>
+            </div>
+            <div id="row_submit" class="row">
+              <div class="span w450">
+                <div class="controls">
+                  <input id="btn_submit" type="button" class="btn btn-l" value="提交" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section id="section_success" class="section level-1 hide">
+  <h1 class="section-title">
+    <p>存取款</p>
+  </h1>
+  <div class="section-body">
+    <div class="row first_row">
+      <div class="tip tip-success" style="width: 600px; margin-left: 200px">
+        操作成功！<br/><br/>
+        <a href="saving.htm">继续>></a><br><br>
+        <a href="">打印回执单>></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script type="text/javascript">
+	KISSY.use("ims/bank/saving", function(S, M) {
+		M.init();
+	});
+</script>

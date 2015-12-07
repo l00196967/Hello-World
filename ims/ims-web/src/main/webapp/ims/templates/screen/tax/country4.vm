@@ -1,0 +1,146 @@
+<html>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="/ims/static/css/tax/newtax.css" />
+</HEAD>
+
+<BODY>
+  <div id="center">
+    <TABLE cellSpacing=0 cellPadding=0 align=center border=0 width="912px">
+      <tr>
+        <div id="logo" style="width: 100%; height: 69px;">
+          <div style="float: right; font-weight: normal; padding: 10px;">
+            <a href="#" target="_new">地税网上办税</a>
+          </div>
+        </div>
+        <span id="span_Lmenu_MAINMENU"><div class="menu" id="Lmenu_MAINMENU">
+            <ul id="ul_Lmenu_MAINMENU">
+              <li id="li_Lmenu_MAINMENU_0"><a href="#"><span class="left"><span class="right">主页</span></span></a></li>
+              <li id="li_Lmenu_MAINMENU_1"><a href="#"><span class="left"><span class="right">我的导航</span></span></a></li>
+              <li id="li_Lmenu_MAINMENU_2"><a href="#"><span class="left"><span class="right">我要申报</span></span></a></li>
+              <li id="li_Lmenu_MAINMENU_3"><a href="#"><span class="left"><span class="right">我要申请</span></span></a></li>
+              <li id="li_Lmenu_MAINMENU_4"><a href="#"><span class="left"><span class="right">我的发票</span></span></a></li>
+              <li id="li_Lmenu_MAINMENU_5"><a href="#"><span class="left"><span class="right">我的信息</span></span></a></li>
+              <li id="li_Lmenu_MAINMENU_6"><a href="#"><span class="left"><span class="right">我的收藏夹</span></span></a></li>
+              <li id="li_Lmenu_MAINMENU_7"><a href="#"><span class="left"><span class="right">税法知识库.</span></span></a></li>
+            </ul>
+          </div> </span>
+        <table class="line" cellpadding="0" cellspacing="0">
+        </table>
+        <div id="loading" align="center" style="position: absolute; display: none; top: 30%; left: 40%; z-index: 99">
+          <img src="/ims/static/img/tax/loading.gif" width=50 height=50 alt=""> <br> <font color="green"><strong>读取数据，请稍等...</strong></font>
+        </div>
+
+        <div style="display: none" id="temp"></div>
+        </td>
+      </tr>
+
+      <TR>
+        <TD colspan="2">
+          <table width="750" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tr valign="top">
+              <td height="1" width="1"></td>
+              <td height="1" width="748"></td>
+              <td height="1" width="1"></td>
+            </tr>
+          </table>
+          <table width="765" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center">
+            <tr>
+              <td width="273" height="19">当前位置：<a class="class" href="#">首页</a> &gt;&gt;网上办税平台
+              </td>
+            </tr>
+          </table>
+        </TD>
+      </TR>
+
+      <TR>
+        <TD width="1%" valign="top"><span id="whole_sidemenu">
+            <table width="180" border="0" cellspacing="0" cellpadding="10" align="left">
+              <tr>
+                <td><img src="/ims/static/img/tax/gnml.gif" height="54" width="148"></td>
+              </tr>
+              <tr>
+                <font color="blue">
+                  <td width="10%" valign="top">&nbsp;&nbsp;&nbsp; <img src="/ims/static/img/tax/sanjiao.gif" height="7"
+                    width="14"> <a href="#">更换所属时期</a><br> <br> &nbsp;&nbsp;&nbsp;&nbsp;<img
+                    src="/ims/static/img/tax/sanjiao.gif" height="7" width="14"> <a href="#">网上申报说明</a><br> <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<img src="/ims/static/img/tax/sanjiao.gif" height="7" width="14"> <a href="#">常见问题解答</a><br>
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp;<img src="/ims/static/img/tax/sanjiao.gif" height="7" width="14"> <a
+                    href="#">封面汇总打印</a><br> <br> &nbsp;&nbsp;&nbsp;&nbsp;<img src="/ims/static/img/tax/sanjiao.gif"
+                    height="7" width="14"> <a href="#">退出网上申报</a><br> <br>
+                </td>
+                </font>
+              </tr>
+            </table>
+        </span></TD>
+        <TD width="80%" valign="top" align="center"><span id="whole_body">
+            <form name="SssqForm" method="post" action="/tax/country5.htm">
+              <table width="80%" border="0" cellspacing="0" cellpadding="10">
+                <tr>
+                  <td><img src="/ims/static/img/tax/sanjiao.gif" width="14" height="7"> <font color="999999" class="p1">
+                      你现在的位置：[企业]...申报报表...选择所属时期页面<br>
+                      ...................................................................................
+                  </font></td>
+                </tr>
+              </table>
+              <table width="80%" border="0" cellspacing="0" cellpadding="0" background="/ims/static/img/tax/back3.gif"
+                height="330">
+                <tr>
+                  <td width="11">&nbsp;</td>
+                  <td valign="top" colspan="3" rowspan="2">
+                    <table width="80%" border="0" cellspacing="0" cellpadding="0" align="center" height="300">
+                      <tr>
+                        <td valign="top">
+                          <table align="center" border="0" borderColorDark="#ffffff" borderColorLight="#000000" cellPadding="0"
+                            cellSpacing="0" width="95%" background="/ims/static/img/tax/back3.gif">
+                            <tr align="center">
+                              <td colspan="2" class="p4">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="61" bgcolor="104D9C"><img src="/ims/static/img/tax/sanjiao3.gif" width="23"
+                                      height="19"></td>
+                                    <td bgcolor="104D9C" align="center"><font color="ffffff">
+                                        &gt;&gt;&gt;--------填写报表：选择所属时期--------&lt;&lt;&lt;</font></td>
+                                    <td align="right" width="68" bgcolor="104D9C"><img src="/ims/static/img/tax/sanjiao4.gif"
+                                      width="68" height="19"></td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="right" class="p1" valign="middle"></td>
+                              <td height="50" valign="middle"></td>
+                            </tr>
+                            <tr>
+                              <td align="right" class="p1" valign="middle"><img src="/ims/static/img/tax/sanjiao2.gif"
+                                width="12" height="12">所属时期：</td>
+                              <td height="50" valign="middle"><input type="text" name="year" maxlength="4" size="4"
+                                  value="2015" id="year"> 年 <input type="text" name="mon" maxlength="2" size="2"
+                                  value="11" id="month"> 月</td>
+                            </tr>
+                            <tr>
+                              <td align="right" width="40%">&nbsp;</td>
+                              <td width="60%" height="50" valign="bottom"><input type="submit" value="确定"> <input
+                                  type="reset" value="重填"></td>
+                            </tr>
+                            <tr>
+                              <td align="right" width="40%">&nbsp;</td>
+                              <td width="60%" height="20" valign="bottom" nowrap>&nbsp;</td>
+                            </tr>
+                          </table> <br>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </form>
+        </span></TD>
+      </TR>
+    </TABLE>
+    <div id="copyright">
+      | 2001-2010 | 版权所有 江苏省国家税务局 主办 |<br /> | 地址：江苏省南京市中山北路55号 | 邮编：210008 | 备案序号：苏ICP备05002258 |
+    </div>
+  </div>
+</BODY>
+</html>
