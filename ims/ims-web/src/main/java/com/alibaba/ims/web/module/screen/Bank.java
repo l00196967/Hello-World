@@ -176,4 +176,12 @@ public class Bank extends AbstractScreen {
     public void doStatement() {
 
     }
+
+    public void doPrinta() {
+
+    }
+
+    public void doPrintb() {
+
+    }
 }

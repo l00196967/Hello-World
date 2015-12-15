@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="company" >
+    <resultMap id="companyMap" type="CompanyDO">
+        <result property="id" column="id" />
+        <result property="registNo" column="regist_no" />
+        <result property="code" column="code" />
+        <result property="taxNo" column="tax_no" />
+        <result property="name" column="name" />
+        <result property="type" column="type" />
+        <result property="address" column="address" />
+        <result property="legalPerson" column="legal_person" />
+        <result property="registCapital" column="regist_capital" />
+        <result property="scope" column="scope" />
+        <result property="createTime" column="create_time" />
+        <result property="expireTime" column="expire_time" />
+    </resultMap>
+
+    <insert id="add" parameterType="CompanyDO" useGeneratedKeys="true" keyProperty="id">
+        insert into t_company (regist_no, code, tax_no, name, type, address, legal_person, regist_capital, scope, create_time, expire_time)
+        values (#{registNo}, #{code}, #{taxNo}, #{name}, #{type}, #{address}, #{legalPerson}, #{registCapital}, #{scope}, #{createTime}, #{expireTime})
+    </insert>
+
+    <select id="get_list" resultMap="companyMap">
+        select * from t_company
+    </select>
+</mapper>

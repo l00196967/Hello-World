@@ -19,7 +19,10 @@ KISSY.add("ims/user/list", function(S, jIMS, Common, Grid, Tab, IO, Dialog, Hint
 				{
 	  				name:'role',
 	  				title:'角色',
-	  				width: "10%"
+	  				width: "10%",
+	  				tpl: function(value, row){
+	  					return jIMS.dict.get("role_type")[value];
+	  				}
 	      		},
 				{
 	  				name:'xx',
@@ -41,28 +44,29 @@ KISSY.add("ims/user/list", function(S, jIMS, Common, Grid, Tab, IO, Dialog, Hint
 	  				title: '操作',
 	  				width: "10%",
 					tpl: function(value, row){
-	   					return "<a class='link_priv mr' href='javascript:void(0)' >删除</a>";
+	   					return "<a class='link_reset mr' href='javascript:void(0)' >重置密码</a><a class='link_del mr' href='javascript:void(0)' >删除</a>";
 	   				}
 	    		}
 			],
-	        linkers: {},
-	        localData:{
-	        	data: [{
-		        	name: "张三",
-		        	role: "操作员",
-		        	expireTime: '2015-12-12'
-		        }]
+	        linkers: {
+	        	".link_reset": function(value, row){
+	        	},
+	        	".link_del": function(value, row){
+	        	}
 	        }
 		})
     }
 
     function bindEvent(){
-
+    	$("#btn_add").on("click", function(){
+    		var url = jIMS.context.path + "/user/add.htm?layout=false";
+    		Common.showDialog(url, {title: '添加用户', width: 900, height: 600});
+    	})
     }
 
 	function search(isFirst){
 		var config = {
-			url: jIMS.context.path + "/company/query.json"
+			url: jIMS.context.path + "/user/query.json"
 		}
 		if(isFirst){
 			config.data = {
@@ -75,12 +79,47 @@ KISSY.add("ims/user/list", function(S, jIMS, Common, Grid, Tab, IO, Dialog, Hint
 	return {
 		init: function(){
 			initGrid();
-//			search(true);
+			search(true);
 			bindEvent();
+		},
+		refresh: function(){
+			search(true);
 		}
 	}
 }, {requires:['ims/bootstrap',  "ims/common", "cute/grid/", "cute/tab/", "ajax", "cute/dialog/", "cute/hint/"]});
 
+
+/**
+ * User Add Module
+ */
+KISSY.add("ims/user/add", function(S, jIMS, Common, IO, Dialog, Hint, Auth, Selector) {
+	var $ = S.all;
+	var auth = null;
+
+    function bindEvent(){
+    	$("#btn_submit").on("click", function(){
+			if(!auth){
+				auth = new Auth('#form_add', {submitTest:false});
+				auth.render();
+			}
+			auth.test().then(function(){
+            	IO.loading.show();
+				IO.post(jIMS.context.path + "/user/submit.json", IO.serialize($("#form_add")), function(result){
+					if(result.success){
+						parent.refresh();
+						Common.closeDialog();
+					}
+				});
+			})
+    	})
+    }
+
+	return {
+		init: function(){
+			bindEvent();
+		}
+	}
+}, {requires:['ims/bootstrap', "ims/common", "ajax", "cute/dialog/", "cute/hint/", "cute/auth/", "cute/selector/"]});
 
 /**
  * Role List Module

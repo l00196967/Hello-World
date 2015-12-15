@@ -41,6 +41,8 @@
   </div>
 </section>
 
+<iframe id="content" src="print.htm?layout=false" class="hide" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="600" height="800"></iframe>
+
 <script>
 	KISSY.use("ims/company/list", function(S, M) {
 		M.init();

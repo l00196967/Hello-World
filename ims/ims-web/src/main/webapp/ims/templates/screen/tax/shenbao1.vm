@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<script type="text/javascript">
+<!--
+	var curServerDate = '2015-12-13';
+	var curWsbsPath = 'http://www.jsds.gov.cn';
+	var jsLtWbLogin = "0";
+	var headEjyhLx = "null";
+	var wsbs_kkbj = "1";
+	var wsbs_wykkbj = "";
+//-->
+</script>
+
+<html>
+<head>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="/ims/static/css/tax/ext.css" />
+<script type="text/javascript" src="/ims/static/js/tax/wsbs.js"></script>
+<script language="javascript" src="/ims/static/js/tax/caltab.js"></script>
+<script type="text/javascript" src="/ims/static/js/tax/banner.js"></script>
+<title>代扣代缴个人所得税汇总</title>
+</head>
+<body>
+  <div id="toolbar" style="width: 100%" align="right"></div>
+  <form name="wb_DkdjptUpLoadForm" method="post" action="/wb_DkdjptUpLoadAction.do" enctype="multipart/form-data"
+    id="wb_DkdjptUpLoadForm">
+    <div style="width: 100%" align="center" id="mainDiv">
+      <p align="center" style="font-size: 20px">
+        <br> <b>代扣代缴个人所得税汇总</b>
+      </p>
+      <br>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="wz">
+        <tr>
+          <td>
+            <table width="98%" style="border-collapse: collapse" bordercolor="#000000" align="center" cellpadding="1"
+              cellspacing="1" class="cssTable">
+              <tr>
+                <td width="60%">
+                  <div align="center">
+                    填表日期：
+                    <input type="text" name="tbrq" value="2015-12-13" readonly="readonly" style="width: 100; text-align: left"
+                      id="tbrq">
+                  </div>
+
+                </td>
+                <td width="40%">
+                  <div align="center">金额单位：元（列至角分）</div>
+
+                </td>
+              </tr>
+            </table>
+            <table width="98%" border="1" align="center" cellpadding="1" cellspacing="1" bordercolor="#000000" class="wz"
+              style="border-collapse: collapse">
+              <tr>
+                <td>
+                  <div align="center">纳税人识别号</div>
+
+                </td>
+                <td width="31%"><input type="text" name="nsrsbh" value="320705763572728" readonly="readonly"
+                    style="width: 100%; text-align: left" class="read" id="nsrsbh"></td>
+                <td width="10%">
+                  <div align="center">税务管理码</div>
+
+                </td>
+                <td width="44%"><input type="text" name="swglm" value="320700002507603" readonly="readonly"
+                    style="width: 100%; text-align: left" class="read" id="swglm"></td>
+              </tr>
+              <tr>
+                <td width="15%">
+                  <div align="center">纳税人名称</div>
+                </td>
+                <td><input type="text" name="nsrmc" value="连云港童豆装饰家具有限公司" readonly="readonly"
+                    style="width: 100%; text-align: left" class="read" id="nsrmc"></td>
+                <td>
+                  <div align="center">税款所属时期</div>
+                </td>
+                <td width="44%"><input type="text" name="ssqq" value="2015-11-01" readonly="readonly"
+                    style="width: 40%; text-align: left" class="read" id="ssqq"> 至 <input type="text" name="ssqz"
+                    value="2015-11-30" readonly="readonly" style="width: 40%; text-align: left" class="read" id="ssqz"></td>
+              </tr>
+              <tr>
+                <td>
+                  <div align="center">注册类型</div>
+                </td>
+                <td width="31%"><input type="text" name="zclx" value="私营有限责任公司" readonly="readonly"
+                    style="width: 100%; text-align: left" class="read" id="zclx"></td>
+                <td width="10%">
+                  <div align="center">法定代表人</div>
+                </td>
+                <td width="44%"><input type="text" name="fddbr" value="王明燕" readonly="readonly"
+                    style="width: 100%; text-align: left" class="read" id="fddbr"></td>
+              </tr>
+              <tr>
+                <td>
+                  <div align="center">电话</div>
+                </td>
+                <td width="31%"><input type="text" name="dh" value="051885489661" readonly="readonly"
+                    style="width: 100%; text-align: left" class="read" id="dh"></td>
+                <td width="10%">
+                  <div align="center">邮政编码</div>
+                </td>
+                <td width="44%"><input type="text" name="yb" value="222000" readonly="readonly"
+                    style="width: 100%; text-align: left" class="read" id="yb"></td>
+              </tr>
+            </table>
+            <table id="dkdjptTable" width="98%" border="1" style="border-collapse: collapse" bordercolor="#000000" align="center"
+              cellpadding="1" cellspacing="1" class="wz">
+
+              <tr height="30">
+                <td class="fixedHead" width="30" align="center">序号</td>
+                <td class="fixedHead" style="width: 200" align="center">所得项目名称</td>
+                <td class="fixedHead" style="width: 150" align="center">收入额合计</td>
+                <td class="fixedHead" style="width: 150" align="center">应纳税所得额</td>
+                <td class="fixedHead" style="width: 200" align="center">补（退）扣缴所得税额</td>
+              </tr>
+
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div align="center" style="display: none;">
+      旧版&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="file" name="file" value="" style="width: 90%" class="need" id="file">
+    </div>
+    <div align="center">
+      2014新版
+      <input type="file" name="file1" value="" style="width: 90%" class="need" id="file1">
+    </div>
+    <input type="hidden" id="bbzt" value="null">
+    <input type="hidden" name="handleCode" value="" id="handleCode">
+    <input type="hidden" name="bb" value="" id="bb">
+    <input type="hidden" name="errorMessage" value="" id="errorMessage">
+    <input type="hidden" name="filename" value="" id="filename">
+    <input type="hidden" name="bj" value="" id="bj">
+    <input type="hidden" name="handleDesc" value="" id="handleDesc">
+    <input type="hidden" name="sbqx" value="2015-12-15" id="sbqx">
+    <input type="hidden" name="path" value="" id="path">
+    <input type="hidden" name="pzxh" value="25E5D47C13724336E053C0A866154336" id="pzxh">
+    <input type="hidden" name="khyh" value="江苏银行连云港城北支行" id="khyh">
+    <input type="hidden" name="yhzh" value="11360188000005649" id="yhzh">
+    <input type="hidden" name="sbje" value="" id="sbje">
+    <span id="update"> <input type="hidden" name="cfsbbh" value="" id="cfsbbh"> <input type="hidden"
+        name="sucessMsg" value="" id="sucessMsg">
+    </span>
+    <input type="hidden" name="caVO.str_signature" id="caVO.str_signature">
+    <input type="hidden" name="caVO.str_certificate" id="caVO.str_certificate">
+    <input type="hidden" name="nsrQrtjBz" value="0" id="nsrQrtjBz">
+    <input type="hidden" name="txlJyCount" value="0" id="txlJyCount">
+    <input type="hidden" name="qzlJyCount" value="0" id="qzlJyCount">
+    <input type="hidden" name="ymKj_Info" value="" id="ymKj_Info">
+    <script type="text/javascript">
+					var ca = "0";
+					if (ca == "1") {
+						//document.write("<OBJECT id='signerx' classid='CLSID:5C457383-C43E-4F0F-BACD-8CAD3CE597C5' VIEWASTEXT width='0' height='0'><paramname='CertificateFilter' value='0'><param name='Express' value='0'></OBJECT>");
+						var fingerprint = "null";
+						document
+								.write("<OBJECT id='signerx' classid='CLSID:5C457383-C43E-4F0F-BACD-8CAD3CE597C5' CODEBASE='/signerx/SignerX.cab#Version=2,0,1,4' VIEWASTEXT width='0'height='0'>");
+						document.write("<param name='AutoSign' value='0'>");
+						document
+								.write("<param name='CertificateFilter' value='0'>");
+						document
+								.write("<param name='PreferredCertificate' value="+fingerprint+">");
+						document.write("<param name='Quiet' value='0'>");
+						document.write("</object>");
+					}
+				</script>
+
+
+
+    <script type="text/javascript">
+					var nsryhzh = "11360188000005649";
+					var tskzdm = "null";
+					var nsrsbh = "320705763572728";
+					var yhmc = "江苏银行连云港城北支行";
+					var nsrmc = "连云港童豆装饰家具有限公司";
+					var zrr_nsrmc = "";
+					var zrr_yhzh = "";
+				</script>
+    <input type="hidden" name="cqSb" value="0" id="cqSb">
+
+    <table id="hiddenSubmitTable" style="display: none;">
+
+    </table>
+    <div id="proMessageDiv" style='overflow: scroll; height: 400; width: 500; margin: 0px;' class="x-hidden"></div>
+    <div id="qynsrKkQr_MessageDiv" style='height: 300; width: 500; margin: 0px;' class="x-hidden"></div>
+    <div id="zrrWykkQr_MessageDiv" style='height: 300; width: 500; margin: 0px;' class="x-hidden"></div>
+
+
+    <br /> <br />
+    <fieldset style="width: 95%">
+      <legend style="font-size: 12px"> 说明 </legend>
+      <font color="red">2014版新格式中明细含有是否残疾烈属孤老（1是0否）,是否雇员（1是0否）,电话,电子邮箱,联系地址,工作单位新字段。</font>
+    </fieldset>
+
+  </form>
+</body>
+</html>

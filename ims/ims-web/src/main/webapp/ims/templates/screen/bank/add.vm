@@ -51,6 +51,26 @@
   </div>
 </section>
 
+<section id="section_success" class="section level-1 hide">
+  <h1 class="section-title">
+    <p>开户</p>
+  </h1>
+  <div class="section-body">
+    <div class="row first_row">
+      <div class="tip tip-success" style="width: 600px; margin-left: 200px">
+        操作成功！<br/><br/>
+        <a href="javascript:void()" id="link_a">打印开户许可>></a><br><br>
+        <a href="javascript:void()" id="link_b">打印代扣款协议>></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<iframe id="content_a" src="printa.htm?layout=false" class="hide" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="600" height="800"></iframe>
+
+<iframe id="content_b" src="printb.htm?layout=false" class="hide" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="600" height="800"></iframe>
+
+
 <script type="text/javascript">
 	KISSY.use("ims/bank/account", function(S, M) {
 		M.init();

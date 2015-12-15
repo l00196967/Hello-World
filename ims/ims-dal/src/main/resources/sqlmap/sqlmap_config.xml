@@ -2,11 +2,15 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
+        <typeAlias alias="CompanyDO" type="com.alibaba.ims.dal.domain.CompanyDO" />
         <typeAlias alias="BankAccountDO" type="com.alibaba.ims.dal.domain.BankAccountDO" />
         <typeAlias alias="BankRecordDO" type="com.alibaba.ims.dal.domain.BankRecordDO" />
+        <typeAlias alias="UserDO" type="com.alibaba.ims.dal.domain.UserDO" />
     </typeAliases>
 
     <mappers>
+        <mapper resource="sqlmap/sqlmap_company.xml" />
         <mapper resource="sqlmap/sqlmap_bank.xml" />
+        <mapper resource="sqlmap/sqlmap_user.xml" />
     </mappers>
 </configuration>

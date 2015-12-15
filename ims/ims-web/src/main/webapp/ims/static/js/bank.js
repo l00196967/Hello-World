@@ -16,10 +16,20 @@ KISSY.add("ims/bank/account", function(S, jIMS, Common, IO, Dialog, Hint, Auth) 
             	IO.loading.show();
 				IO.post(jIMS.context.path + "/bank/addAccount.json", IO.serialize($("#form_add")), function(result){
 					if(result.success){
-						showTips(result);
+						//showTips(result);
+						$("#section_add").hide();
+						$("#section_success").show();
 					}
 				});
 			})
+    	})
+
+    	$("#link_a").on("click", function(){
+    		document.getElementById('content_a').contentWindow.print();
+    	})
+
+    	$("#link_b").on("click", function(){
+    		document.getElementById('content_b').contentWindow.print();
     	})
     }
 

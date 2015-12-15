@@ -31,8 +31,13 @@
                 "children": [
                    {
                        "id": "company_add",
-                       "text": "工商注册",
+                       "text": "注册申请",
                        "url": jIMS.context.path + "/company/add.htm"
+                   },
+                   {
+                       "id": "company_list",
+                       "text": "申请列表",
+                       "url": jIMS.context.path + "/company/list.htm"
                    }
                 ],
                 "icon": "e610"
@@ -86,13 +91,8 @@
                           "url": jIMS.context.path + "/user/list.htm"
                      },
                      {
-                         "id": "role_list",
-                         "text": "角色管理",
-                         "url": jIMS.context.path + "/role/list.htm"
-                     },
-                     {
                          "id": "system_licence",
-                         "text": "生成Licence",
+                         "text": "Licence",
                          "url": jIMS.context.path + "/system/licence.htm"
                      }
                  ],

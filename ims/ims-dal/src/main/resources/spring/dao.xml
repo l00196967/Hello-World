@@ -6,6 +6,10 @@
 
     <bean id="abstractDAO" class="com.alibaba.ims.dal.dao.impl.AbstractDAO" abstract="true"/>
 
+    <bean id="companyDAO" class="com.alibaba.ims.dal.dao.impl.CompanyDAOImpl" parent="abstractDAO"/>
+
     <bean id="bankDAO" class="com.alibaba.ims.dal.dao.impl.BankDAOImpl" parent="abstractDAO"/>
+
+    <bean id="userDAO" class="com.alibaba.ims.dal.dao.impl.UserDAOImpl" parent="abstractDAO"/>
 
 </beans>

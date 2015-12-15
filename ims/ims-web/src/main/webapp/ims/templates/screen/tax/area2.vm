@@ -2,7 +2,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" href="/ims/static/css/tax/area.css" />
-
 </head>
 <body background="/ims/static/img/tax/jsds_bg-1.jpg" topmargin="0">
   <table border="0" cellspacing="0" cellpadding="0" width="1002" background="/ims/static/img/tax/111108160022312.jpg"
@@ -480,8 +479,7 @@
                                   <tr>
                                     <td height="36" valign="middle" width="42" align="center">验证码</td>
                                     <td width="56" align="left" style="padding-left: 2px;"><input style="WIDTH: 100%;"
-                                        name="fjm" id="fjm" type="text" maxlength="4" class="xhx"
-                                        onkeydown="javascript:if(event.keyCode==13){login('0')}"></td>
+                                        name="fjm" id="fjm" type="text" maxlength="4" class="xhx" ></td>
                                     <td align="left" style="padding-right: 8px;"><img src="/ims/static/img/tax/fujia.jpg"
                                       id="fjmimg"></td>
                                   </tr>
@@ -492,9 +490,8 @@
                                   <tr>
                                     <td width="28%" height="40">&nbsp;</td>
                                     <td width="35%"><img src="/ims/static/img/tax/login.jpg" style="cursor: pointer"
-                                      onclick="login('0')"></td>
-                                    <td width="37%"><img src="/ims/static/img/tax/chongzi.jpg" onclick="cleanPage()"
-                                      style="cursor: pointer;"></td>
+                                      onclick="javascript:window.location='area3.htm'"></td>
+                                    <td width="37%"><img src="/ims/static/img/tax/chongzi.jpg"  style="cursor: pointer;"></td>
                                   </tr>
                                 </tbody>
                               </table>

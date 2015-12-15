@@ -54,18 +54,15 @@ KISSY.add("ims/company/list", function(S, jIMS, Common, Grid, Tab, IO, Dialog, H
 	  				title: '操作',
 	  				width: "10%",
 					tpl: function(value, row){
-	   					return "<a class='link_priv mr' href='javascript:void(0)' >详情</a>";
+	   					return "<a class='link_print mr' href='javascript:void(0)' >打印营业执照</a>";
 	   				}
 	    		}
 			],
-	        linkers: {},
-	        localData:{
-	        	data: [
-        	       {
-        	    	   registNo: "000001111",
-        	    	   name: "一公司"
-        	       }
-    	       ]
+	        linkers: {
+	        	".link_print": function(value, row){
+	        		//$('#content').attr("src", "print.htm?layout=false");
+	        		document.getElementById('content').contentWindow.print();
+				}
 	        }
 		})
     }
@@ -113,6 +110,22 @@ KISSY.add("ims/company/add", function(S, jIMS, Common, IO, Dialog, Hint, Calenda
 				document.getElementById('content').contentWindow.print();
 			})
     	})
+
+    	$("#btn_submit").on("click", function(){
+			if(!auth){
+				auth = new Auth('#form_add', {submitTest:false});
+				auth.render();
+			}
+			auth.test().then(function(){
+	        	var url = jIMS.context.path + "/company/submit.json";
+	        	IO.loading.show();
+				IO.post(url, IO.serialize($("#form_add")), function(result){
+					if(result.success){
+						Dialog.alert("申请提交成功");
+					}
+				});
+			})
+		})
     }
 
     function initCal(){

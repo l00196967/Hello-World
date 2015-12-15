@@ -6,8 +6,7 @@
     <div class="box">
       <section class="section level-2">
        <div id="buttons" class="hide">
-        <input id="btn_add" type="button" class="btn btn-m" value="新增" />
-        <input id="btn_import" type="button" class="btn btn-m" value="批量导入" />
+        <input id="btn_add" type="button" class="btn btn-m" value="批量新增" />
         <input id="btn_del" type="button" class="btn btn-m" value="批量删除" />
       </div>
         <div class="grid-wrapper">
@@ -22,4 +21,10 @@
 	KISSY.use("ims/user/list", function(S, M) {
 		M.init();
 	});
+
+	function refresh(){
+        KISSY.use("ims/user/list", function(S, M) {
+            M.refresh();
+        })
+   }
 </script>

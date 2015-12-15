@@ -1,0 +1,707 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="/ims/static/css/tax/ext.css" />
+<title>江苏地税网上办税-纳税申报</title>
+</head>
+<body>
+  <form name="sbMainForm" method="post" action="/sbMain.do" id="sbMainForm">
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td background="/ims/static/img/tax/s012.jpg"><img src="/ims/static/img/tax/s013.jpg" width="379px"></td>
+        <td background="/ims/static/img/tax/s012.jpg" style="font-size: 12px;"><font color='#000000'>税务管理码:320700002507603&nbsp;&nbsp;&nbsp;&nbsp;<br>
+            纳税人名称: 连云港童豆装饰家具有限公司 &nbsp;&nbsp;&nbsp;&nbsp;<br>当前服务器:3号服务器<br></font></td>
+        <td background="/ims/static/img/tax/s012.jpg" style="font-size: 12px;" width="20%" align="left">
+          <div id='mmxgDiv'>
+            <img src='/ims/static/img/tax/password.gif'><a href='#' style='cursor: pointer' onclick=openWin('xgmm','/mmxgAction.do','',600,400,false,true,false)>修改密码</a>
+          </div> <img src='/ims/static/img/tax/quit.gif'><a style='cursor: pointer' onclick='showExitDialog();' href='#'>退出</a>
+        </td>
+      </tr>
+      <tr>
+        <td background="/ims/static/img/tax/s012.jpg" colspan="3">
+          <table width="70%" border="0" align="left" cellpadding="0" cellspacing="0">
+
+            <tr align="center">
+              <td width="3%"><a href="#"><font color="#000000">数据采集</font> </a></td>
+              <td width="1%">|</td>
+              <td width="3%"><a href="#"><font color="#000000">纳税申报</font> </a></td>
+              <td width="1%">|</td>
+              <td width="3%"><a href="#"><font color="#000000">涉税业务</font> </a></td>
+              <td width="1%">|</td>
+              <td width="3%"><a href="#"><font color="#000000">查询服务</font> </a></td>
+
+
+
+
+              <td width="1%">|</td>
+              <td width="3%"><a href="#"><font color='#000000'>下载中心</font> </a></td>
+
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <div>
+      <br />
+      <table width="98%" align="center">
+        <tr>
+          <td valign="top" style="width: 750px">
+            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" height="110px" bgcolor="#FFFFFF">
+              <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp; 1、&nbsp;为了您正常使用网上办税系统，请下载 <a href="#"><b>一键设置工具</b> </a>,常见问题请查看 <a href="#"><b>操作指南</b>
+                </a>
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp; 2、&nbsp;您本月尚未申报的税种，请点击这里 <a href="#"><b style="font-size: 16.0pt">查询</b> </a>如您单位联系方式有变化，请点击
+                  <a href="#"><b>联系方式变更</b> </a>进行修改。
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp; 3、&nbsp;提交报表后，如果在“本月已提交申报表”栏目中没有看到已申报报表，请 <a href="#"><b>刷新</b> </a>本页!
+                </td>
+              </tr>
+
+              <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp; 4、&nbsp;尊敬的纳税人，如果您在网上办税过程出现操作异常等情况，可以拨打电话 <B>12366</B>或发送邮件 <B>jsdswsbs@163.com</B>。
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp; 5、&nbsp;请在邮件中注明单位名称、税务管理码、联系电话和具体内容及截图，我们将及时进行处理和反馈。</td>
+              </tr>
+            </table>
+          </td>
+          <td valign="top" style="text-align: center;">
+            <table style="width: 300px; height: 110px" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="text-align: center; width: 300px" " colspan="2"><img src="/ims/static/img/tax/title_xz.png"
+                  width="80px" height="15px"></td>
+              </tr>
+              <tr>
+                <td style="text-align: center; width: 150px"><a href="#"> <img src="/ims/static/img/tax/gsmx_new_xz.png"
+                    style="width: 120px; height: 40px">
+                </a></td>
+                <td style="text-align: center; width: 150px""><a href="#"> <img src="/ims/static/img/tax/gsmx_xz.png"
+                    style="width: 120px; height: 40px">
+                </a></td>
+              </tr>
+              <tr>
+                <td style="text-align: center; width: 150px""><a href="#"> <img src="/ims/static/img/tax/cwbb_xz.png"
+                    style="width: 120px; height: 40px">
+                </a></td>
+                <td style="text-align: center; width: 150px""><a href="#"> <img src="/ims/static/img/tax/wjgr_xz.png"
+                    style="width: 120px; height: 40px">
+                </a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <table width="98%" align="center">
+        <tr>
+          <td valign="top" width="85%">
+            <table width="100%" border="0" align="center" cellpadding="0" bgcolor="#87CEFA" cellspacing="0">
+              <tr style="height: 20px">
+                <td width="6%" align="center">&gt;&gt;</td>
+                <td width="88%">本月税务机关提醒您（办理）的事项</td>
+                <td width="6%"><a href="javascript:openMaxWindow('/wbxtxxAction.do?handleCode=query')">更多</a></td>
+              </tr>
+            </table>
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#139AD2" id="bbTable">
+              <tr style="height: 20px">
+                <td width="4%" align="center" background="/ims/static/img/tax/tz.gif">序号</td>
+                <td width="52%" align="center" background="/ims/static/img/tax/tz.gif">事项列表</td>
+                <td width="11%" align="center" background="/ims/static/img/tax/tz.gif">有效时间起</td>
+                <td width="12%" align="center" background="/ims/static/img/tax/tz.gif">有效时间止</td>
+                <td align="center" background="/ims/static/img/tax/tz.gif">详细</td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">1</td>
+                <td align="left">&nbsp;&nbsp; 您本月应申报税（费、基金）及报送资料提醒</td>
+                <td align="center">&nbsp;&nbsp; 2015-01-01</td>
+                <td align="center">&nbsp;&nbsp; 2015-12-31</td>
+                <td align="center"><input name="chakan2" type="button" value="查看" style="width: 75;" class="button"></td>
+              </tr>
+
+            </table>
+
+            <table width="100%" border="0" align="center" cellpadding="0" bgcolor="#C9E6F4" cellspacing="0">
+              <tr style="height: 20px">
+                <td width="6%" align="center">&gt;&gt;</td>
+                <td width="94%">本月需要申报的报表（必报部分，依认定）</td>
+              </tr>
+            </table>
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#139AD2" id="bbTable">
+              <tr style="height: 20px">
+                <td width="4%" align="center" background="/ims/static/img/tax/tz.gif">序号</td>
+                <td width="52%" align="center" background="/ims/static/img/tax/tz.gif">申报表种类</td>
+                <td width="11%" align="center" background="/ims/static/img/tax/tz.gif">所属期始</td>
+                <td width="12%" align="center" background="/ims/static/img/tax/tz.gif">所属期止</td>
+                <td align="center" background="/ims/static/img/tax/tz.gif">操作</td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">1</td>
+                <td align="left">&nbsp;&nbsp; 代扣代缴个人所得税明细报告表(适用于普通算法) <input name="sbqxrdm" type="hidden" value="M01_15">
+                  <input name="pzzldm" type="hidden" value="30039"> <input name="ssqs" type="hidden" value="2015-11-01">
+                  <input name="ssqz" type="hidden" value="2015-11-30"> <input name="sbqx" type="hidden" value="2015-12-15">
+                </td>
+                <td align="center">&nbsp;&nbsp; 2015-11-01</td>
+                <td align="center">&nbsp;&nbsp; 2015-11-30</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button" onclick="javascript:window.location='shenbao1.htm'">
+                </td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">2</td>
+                <td align="left">&nbsp;&nbsp; 代扣代缴个人所得税明细报告表(适用于特殊算法) <input name="sbqxrdm" type="hidden" value="M01_15">
+                  <input name="pzzldm" type="hidden" value="30040"> <input name="ssqs" type="hidden" value="2015-11-01">
+                  <input name="ssqz" type="hidden" value="2015-11-30"> <input name="sbqx" type="hidden" value="2015-12-15">
+                </td>
+                <td align="center">&nbsp;&nbsp; 2015-11-01</td>
+                <td align="center">&nbsp;&nbsp; 2015-11-30</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">3</td>
+                <td align="left">&nbsp;&nbsp; 地方各项基金费申报表 <input name="sbqxrdm" type="hidden" value="M01_15"> <input
+                    name="pzzldm" type="hidden" value="30043"> <input name="ssqs" type="hidden" value=""> <input
+                    name="ssqz" type="hidden" value=""> <input name="sbqx" type="hidden" value="2015-12-15">
+                </td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">4</td>
+                <td align="left">&nbsp;&nbsp; 印花税纳税申报表(新) <input name="sbqxrdm" type="hidden" value=""> <input
+                    name="pzzldm" type="hidden" value="30077"> <input name="ssqs" type="hidden" value=""> <input
+                    name="ssqz" type="hidden" value=""> <input name="sbqx" type="hidden" value="">
+                </td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">5</td>
+                <td align="left">&nbsp;&nbsp; 营业税、城建税、教育费附加、地方教育费附加、文化事业建设费纳税申报表 <input name="sbqxrdm" type="hidden"
+                    value="M01_15"> <input name="pzzldm" type="hidden" value="31330"> <input name="ssqs"
+                    type="hidden" value="2015-11-01"> <input name="ssqz" type="hidden" value="2015-11-30"> <input
+                    name="sbqx" type="hidden" value="2015-12-15">
+                </td>
+                <td align="center">&nbsp;&nbsp; 2015-11-01</td>
+                <td align="center">&nbsp;&nbsp; 2015-11-30</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">6</td>
+                <td align="left">&nbsp;&nbsp; 财务报表(小企业会计准则适用) <input name="sbqxrdm" type="hidden" value="Y01_151"> <input
+                    name="pzzldm" type="hidden" value="CKL"> <input name="ssqs" type="hidden" value="2014-01-01">
+                  <input name="ssqz" type="hidden" value="2014-12-31"> <input name="sbqx" type="hidden" value="">
+                </td>
+                <td align="center">&nbsp;&nbsp; 2014-01-01</td>
+                <td align="center">&nbsp;&nbsp; 2014-12-31</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+            </table>
+
+
+            <table width="100%" border="0" align="center" cellpadding="0" bgcolor="#87CEFA" cellspacing="0">
+              <tr style="height: 20px">
+                <td width="6%" align="center">&gt;&gt;</td>
+                <td width="94%">本月可以申报的其他报表（选报部分，依发生）</td>
+              </tr>
+            </table>
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#139AD2">
+              <tr style="height: 20px">
+                <td width="4%" align="center" background="/ims/static/img/tax/tz.gif">序号</td>
+                <td width="52%" align="center" background="/ims/static/img/tax/tz.gif">申报表种类</td>
+                <td width="11%" align="center" background="/ims/static/img/tax/tz.gif">所属期始</td>
+                <td width="12%" align="center" background="/ims/static/img/tax/tz.gif">所属期止</td>
+                <td align="center" background="/ims/static/img/tax/tz.gif">操作</td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">1</td>
+                <td align="left">&nbsp;&nbsp; 地方税通用申报表(用于非认定税种税目申报) <input name="sbqxrdm" type="hidden" value="M01_15">
+                  <input name="pzzldm" type="hidden" value="30001"> <input name="ssqs" type="hidden" value=""> <input
+                    name="ssqz" type="hidden" value=""> <input name="sbqx" type="hidden" value="2015-12-15">
+                </td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">2</td>
+                <td align="left">&nbsp;&nbsp; 江苏省耕地占用税纳税申报表 <input name="sbqxrdm" type="hidden" value=""> <input
+                    name="pzzldm" type="hidden" value="30064"> <input name="ssqs" type="hidden" value="2015-12-13">
+                  <input name="ssqz" type="hidden" value="2015-12-13"> <input name="sbqx" type="hidden" value="2016-01-12">
+                </td>
+                <td align="center">&nbsp;&nbsp; 2015-12-13</td>
+                <td align="center">&nbsp;&nbsp; 2015-12-13</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">3</td>
+                <td align="left">&nbsp;&nbsp; 地方基金费通用申报表(用于非认定税目申报) <input name="sbqxrdm" type="hidden" value=""> <input
+                    name="pzzldm" type="hidden" value="31316"> <input name="ssqs" type="hidden" value=""> <input
+                    name="ssqz" type="hidden" value=""> <input name="sbqx" type="hidden" value="">
+                </td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">4</td>
+                <td align="left">&nbsp;&nbsp; 地方税通用申报表(申报按次认定部分) <input name="sbqxrdm" type="hidden" value=""> <input
+                    name="pzzldm" type="hidden" value="31317"> <input name="ssqs" type="hidden" value=""> <input
+                    name="ssqz" type="hidden" value=""> <input name="sbqx" type="hidden" value="2015-12-28">
+                </td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">5</td>
+                <td align="left">&nbsp;&nbsp; 地方税综合申报表(房产税、土地使用税专用) <input name="sbqxrdm" type="hidden" value=""> <input
+                    name="pzzldm" type="hidden" value="31333"> <input name="ssqs" type="hidden" value="2015-07-01">
+                  <input name="ssqz" type="hidden" value="2015-09-30"> <input name="sbqx" type="hidden" value="2090-01-01">
+                </td>
+                <td align="center">&nbsp;&nbsp; 2015-07-01</td>
+                <td align="center">&nbsp;&nbsp; 2015-09-30</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">6</td>
+                <td align="left">&nbsp;&nbsp; 代扣代缴个人所得税明细报告表（适用于领取年金所得） <input name="sbqxrdm" type="hidden" value="M01_15">
+                  <input name="pzzldm" type="hidden" value="31346"> <input name="ssqs" type="hidden" value="2015-11-01">
+                  <input name="ssqz" type="hidden" value="2015-11-30"> <input name="sbqx" type="hidden" value="2015-12-15">
+                </td>
+                <td align="center">&nbsp;&nbsp; 2015-11-01</td>
+                <td align="center">&nbsp;&nbsp; 2015-11-30</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center">7</td>
+                <td align="left">&nbsp;&nbsp; 地方各项基金费申报表(残保金) <input name="sbqxrdm" type="hidden" value="M01_15"> <input
+                    name="pzzldm" type="hidden" value="31350"> <input name="ssqs" type="hidden" value=""> <input
+                    name="ssqz" type="hidden" value=""> <input name="sbqx" type="hidden" value="">
+                </td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center">&nbsp;&nbsp;</td>
+                <td align="center"><input name="shenbao" type="button" value="申　　报" style="width: 75;" class="button">
+                </td>
+              </tr>
+
+            </table>
+            <table width="100%" border="0" align="center" cellpadding="0" bgcolor="#C9E6F4" cellspacing="0">
+              <tr style="height: 20px">
+                <td width="6%" align="center">&gt;&gt;</td>
+                <td width="94%">本月已暂存申报表</td>
+              </tr>
+            </table>
+            <table width="100%" border="0" align="center" cellpadding="0" id="yzclb" cellspacing="1" bgcolor="#139AD2">
+              <tr style="height: 20px">
+                <td width="4%" align="center" background="/ims/static/img/tax/tz.gif">序号</td>
+                <td align="center" width="52%" background="/ims/static/img/tax/tz.gif">申报表种类</td>
+                <td align="center" width="17%" background="/ims/static/img/tax/tz.gif">申报时间</td>
+                <td width="6%" align="center" background="/ims/static/img/tax/tz.gif">状态</td>
+                <td align="center" background="/ims/static/img/tax/tz.gif">操作</td>
+              </tr>
+
+            </table>
+            <table width="100%" border="0" align="center" cellpadding="0" bgcolor="#87CEEB" cellspacing="0">
+              <tr style="height: 20px">
+                <td width="6%" align="center">&gt;&gt;</td>
+                <td width="94%">本月已提交申报表</td>
+              </tr>
+            </table>
+            <table width="100%" border="0" align="center" cellpadding="0" id="ysblb" cellspacing="1" bgcolor="#139AD2">
+              <tr style="height: 20px">
+                <td width="4%" align="center" background="/ims/static/img/tax/tz.gif">序号</td>
+                <td align="center" width="52%" background="/ims/static/img/tax/tz.gif">申报表种类</td>
+                <td align="center" width="17%" background="/ims/static/img/tax/tz.gif">申报时间</td>
+                <td width="6%" align="center" background="/ims/static/img/tax/tz.gif">状态</td>
+                <td align="center" background="/ims/static/img/tax/tz.gif">操作</td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center" class="xh">1</td>
+                <td align="left">&nbsp;&nbsp; 代扣代缴个人所得税明细报告表(适用于普通算法)</td>
+                <td align="center">2015-12-09 10:20:02</td>
+                <td align="center">已入库</td>
+                <td align="center"><input type="hidden" name="ysb_pzzldm" value="30039"> <!-- 报表类型0税种申报表，1财务报表，2社保费申报 -->
+
+
+
+
+
+
+                  <input type="button" value="查 看" class="button"> <!--
+                                                        <input type="button" value="更 新" class="button"
+                                                            >
+                                                         --></td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center" class="xh">2</td>
+                <td align="left">&nbsp;&nbsp; 地方各项基金费申报表</td>
+                <td align="center">2015-12-09 10:23:57</td>
+                <td align="center">审核通过</td>
+                <td align="center"><input type="hidden" name="ysb_pzzldm" value="30043"> <!-- 报表类型0税种申报表，1财务报表，2社保费申报 -->
+
+
+
+
+
+
+                  <input type="button" value="查 看" class="button"> <!--
+                                                        <input type="button" value="更 新" class="button"
+                                                            >
+                                                         --></td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center" class="xh">3</td>
+                <td align="left">&nbsp;&nbsp; 印花税纳税申报表(新)</td>
+                <td align="center">2015-12-09 10:26:20</td>
+                <td align="center">已入库</td>
+                <td align="center"><input type="hidden" name="ysb_pzzldm" value="30077"> <!-- 报表类型0税种申报表，1财务报表，2社保费申报 -->
+
+
+
+
+
+
+                  <input type="button" value="查 看" class="button"> <!--
+                                                        <input type="button" value="更 新" class="button"
+                                                            >
+                                                         --></td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td align="center" class="xh">4</td>
+                <td align="left">&nbsp;&nbsp; 营业税、城建税、教育费附加、地方教育费附加、文化事业建设费纳税申报表</td>
+                <td align="center">2015-12-09 10:41:12</td>
+                <td align="center">已入库</td>
+                <td align="center"><input type="hidden" name="ysb_pzzldm" value="31330"> <!-- 报表类型0税种申报表，1财务报表，2社保费申报 -->
+
+
+
+
+
+
+                  <input type="button" value="查 看" class="button"> <!--
+                                                        <input type="button" value="更 新" class="button"
+                                                            >
+                                                         --></td>
+              </tr>
+
+            </table>
+
+          </td>
+          <td valign="top" align="right">
+            <table width="98%" border="1" style="border-collapse: collapse" bordercolor="#000000" align="center" cellpadding="1"
+              cellspacing="1">
+              <tr style="height: 20px">
+                <td align="center" style="background-color: #87CEEB">其他常用业务处理</td>
+              </tr>
+              <tr style="height: 20px" class="tr-js">
+                <td align="center"><a href="#">数据同步</a><strong>&gt;&gt;</strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-os">
+                <td align="center" bordercolor="#FF0000"><a href="#">电子缴款凭证打印</a><strong>&gt;&gt; </strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-js" id="lsfxCxTr">
+                <td align="center"><a href="#">基础信息推送确认(2015年度)</a><strong>&gt;&gt; </strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-os">
+                <td align="center"><a href="#">外籍个人信息上传下载</a><strong>&gt;&gt;</strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-js">
+                <td align="center"><a href="#">查补申报</a><strong>&gt;&gt;</strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-os">
+                <td align="center"><a href="#">税收评定申报</a><strong>&gt;&gt;</strong></td>
+              </tr>
+
+              <tr style="height: 20px">
+                <td align="center" style="background-color: #87CEEB">常用查询 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+                  href="/WBCxfwMainAction.do">更多</a>
+                </td>
+              </tr>
+              <tr style="height: 20px" class="tr-js">
+                <td align="center"><a href="#">鉴定信息查询</a> <strong>&gt;&gt; </strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-os" id="cwbbSbTr">
+                <td align="center"><a href="#">财务报表查询</a> <strong>&gt;&gt; </strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-js" id="cwbbSbTr">
+                <td align="center"><a href="#">财务报表作废退回查询</a> <strong>&gt;&gt; </strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-os" id="sbfSbCxTr">
+                <td align="center"><a href="#">社保费申报表查询</a><strong>&gt;&gt;</strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-js">
+                <td align="center"><a href="#">社保费基本信息查询</a><strong>&gt;&gt; </strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-os" id="sbfJnCxTr">
+                <td align="center"><a href="#">社保费缴纳情况查询</a><strong>&gt;&gt; </strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-js">
+                <td align="center"><a href="#">减免查询</a> <strong>&gt;&gt; </strong></td>
+              </tr>
+
+              <tr style="height: 20px" class="tr-os">
+                <td align="center"><a href="#">各税种申报表查询</a><strong>&gt;&gt; </strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-js">
+                <td align="center"><a href="#">本月申报情况统计</a> <strong>&gt;&gt; </strong></td>
+              </tr>
+
+              <tr style="height: 20px" class="tr-os" id="dqfxCxTr">
+                <td align="center"><a href="#">当前风险查询</a><strong>&gt;&gt; </strong></td>
+              </tr>
+              <tr style="height: 20px" class="tr-js" id="lsfxCxTr">
+                <td align="center"><a href="#">历史风险查询</a><strong>&gt;&gt; </strong></td>
+              </tr>
+
+              <tr style="height: 20px" class="tr-js">
+                <td align="center"><a href="#">企业代自然人申报查询 </a> <strong>&gt;&gt; </strong></td>
+              </tr>
+
+            </table> <br>
+            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0"
+              style="BORDER-RIGHT: #139AD2 1px solid; BORDER-TOP: #139AD2 1px solid; BORDER-LEFT: #139AD2 1px solid; BORDER-BOTTOM: #139AD2 1px solid">
+              <tr>
+                <td width="8%" align="center" background="/ims/static/img/tax/tz.gif"><img src="/ims/static/img/tax/lb.gif"
+                  width="20" height="17"></td>
+                <td background="/ims/static/img/tax/tz.gif">公告通知</td>
+                <td width="25%" background="/ims/static/img/tax/tz.gif"><a
+                  href="javascript:openMaxWindow('/WBxxtsListAction.do')">更多</a></td>
+              </tr>
+
+            </table> <br>
+            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0"
+              style="BORDER-RIGHT: #139AD2 1px solid; BORDER-TOP: #139AD2 1px solid; BORDER-LEFT: #139AD2 1px solid; BORDER-BOTTOM: #139AD2 1px solid">
+              <tr>
+                <td width="8%" align="center" background="/ims/static/img/tax/tz.gif"><img src="/ims/static/img/tax/lb.gif"
+                  width="20" height="17"></td>
+                <td width="90%" background="/ims/static/img/tax/tz.gif">友情链接</td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td>&nbsp;&nbsp;>>&nbsp;&nbsp;</td>
+                <td><a href="#">减免税调查表 </a> <input name="yqlxXh" type="hidden" value="45"> <input name="url"
+                    type="hidden" value="http://221.226.40.66:10002/deratetax/outside/toYearList.do?swglm=320700002507603">
+                  <input name="tcbj" type="hidden" value="0"></td>
+              </tr>
+
+              <tr bgcolor="#FFFFFF">
+                <td>&nbsp;&nbsp;>>&nbsp;&nbsp;</td>
+                <td><a href="#">纳税信用评价查询 </a> <input name="yqlxXh" type="hidden" value="50"> <input name="url"
+                    type="hidden" value="/WB279nsxypjCxAction.do?handleCode=initForm"> <input name="tcbj" type="hidden"
+                    value="0"></td>
+              </tr>
+
+            </table> <br>
+            <table id="table_bsb"
+              style="BORDER-RIGHT: #139AD2 1px solid; BORDER-TOP: #139AD2 1px solid; BORDER-LEFT: #139AD2 1px solid; BORDER-BOTTOM: #139AD2 1px solid; display: none"
+              width="98%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" background="/ims/static/img/tax/tz.gif"><a href="#">补申报明细采集</a><strong>&gt;&gt; </strong></td>
+
+              </tr>
+            </table> <br>
+
+
+            <table id="table_wjgr"
+              style="BORDER-RIGHT: #139AD2 1px solid; BORDER-TOP: #139AD2 1px solid; BORDER-LEFT: #139AD2 1px solid; BORDER-BOTTOM: #139AD2 1px solid; display: none"
+              width="98%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" background="/ims/static/img/tax/tz.gif"><a href="#">外籍个人离职清算</a><strong>&gt;&gt;
+                </strong></td>
+
+              </tr>
+            </table> <br>
+            <table id="table_clcx"
+              style="BORDER-RIGHT: #139AD2 1px solid; BORDER-TOP: #139AD2 1px solid; BORDER-LEFT: #139AD2 1px solid; BORDER-BOTTOM: #139AD2 1px solid; display: none"
+              width="98%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" background="/ims/static/img/tax/tz.gif"><a href="#">车辆纳税情况查询</a><strong>&gt;&gt;
+                </strong></td>
+
+              </tr>
+            </table> <br>
+            <table id="table_zdsw"
+              style="BORDER-RIGHT: #139AD2 1px solid; BORDER-TOP: #139AD2 1px solid; BORDER-LEFT: #139AD2 1px solid; BORDER-BOTTOM: #139AD2 1px solid; display: none"
+              width="98%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" background="/ims/static/img/tax/tz.gif"><a href="#">重点税源报表报送</a><strong>&gt;&gt;
+                </strong></td>
+
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <span id="update"> <input type="hidden" name="errorMessage" value="" id="errorMessage"> <input type="hidden"
+        name="curpzzldm" value="" id="curpzzldm"> <input type="hidden" name="curpzxh" value="" id="curpzxh"> <input
+        type="hidden" name="curzt" value="" id="curzt"> <input type="hidden" name="handleCode" value="" id="handleCode">
+    </span>
+
+
+    <input type="hidden" id="openflag" value="0">
+
+
+
+    <script type="text/javascript">
+
+var nsryhzh = "11360188000005649";
+var tskzdm = "null";
+var nsrsbh = "320705763572728";
+var yhmc = "江苏银行连云港城北支行";
+var nsrmc = "连云港童豆装饰家具有限公司";
+var zrr_nsrmc = "";
+var zrr_yhzh = "";
+
+
+</script>
+    <input type="hidden" name="cqSb" value="0" id="cqSb">
+
+    <table id="hiddenSubmitTable" style="display: none;">
+
+    </table>
+    <div id="proMessageDiv" style='overflow: scroll; height: 400; width: 500; margin: 0px;' class="x-hidden"></div>
+    <div id="qynsrKkQr_MessageDiv" style='height: 300; width: 500; margin: 0px;' class="x-hidden"></div>
+    <div id="zrrWykkQr_MessageDiv" style='height: 300; width: 500; margin: 0px;' class="x-hidden"></div>
+
+
+    <div id="xtxx-div" class="x-hidden">
+      <div id="xtxx-tabs">
+        <div style="height: 550px; width: 750px; overflow: auto">
+          <BR />
+          <table width="98%" align='center' cellspacing='1' cellpadding='1' border="0" id="cwbbts">
+            <tr>
+              <td><font size="4" color="BLUE">您财务报表(小企业会计准则适用)尚未填报，为避免遗漏，请先准确填报财务报表后，进行纳税申报！</font></td>
+            </tr>
+          </table>
+          <br />
+          <table width="98%" align='center' cellspacing='1' cellpadding='1' border="0" id="zhzjTit">
+            <tr>
+              <td>纳税人基础信息推送确认提醒</td>
+            </tr>
+          </table>
+
+          <table cellspacing='1' cellpadding='1' align='center' border="0" id="zhzjTab" class="tb" width="98%">
+            <tr style="height: 22px">
+              <td align="center" width="40%" background="/ims/static/img/tax/tz.gif">推送情况说明</td>
+              <td align="center" width="40%" background="/ims/static/img/tax/tz.gif">推送内容</td>
+              <td align="center" width="13%" background="/ims/static/img/tax/tz.gif">推送时间</td>
+              <td align="center" width="7%" background="/ims/static/img/tax/tz.gif">打开</td>
+            </tr>
+
+          </table>
+          <br>
+
+          <table width="98%" align='center' cellspacing='1' cellpadding='1' border="0" id="xtxxTit">
+            <tr>
+              <td>系统公共信息提醒</td>
+            </tr>
+          </table>
+          <table cellspacing='1' cellpadding='1' align='center' border="0" id="xtxxTab" class="tb" width="98%">
+            <tr style="height: 20px">
+              <td width="8%" align="center" background="/ims/static/img/tax/tz.gif">序号</td>
+              <td align="center" background="/ims/static/img/tax/tz.gif">内容</td>
+            </tr>
+
+            <tr style="height: 20px">
+              <td align="center">1</td>
+              <td align="left" nowrap="nowrap">尊敬的缴费人：<br> <br>
+                根据政府部门有关基金、费的政策规定，2015年连云港市基金费征缴工作已经开展，请在我市应费范围内尚未缴纳或未足额缴纳的<br> <br> 缴费人，通过电子申报或上门申报的方式，及时足额缴纳基金费。
+                <div align="right">江苏省连云港地方税务局</div>
+                <div align="right">2015年10月14日</div>
+              </td>
+            </tr>
+
+          </table>
+
+          <br />
+          <table width="98%" align='center' cellspacing='1' cellpadding='1' border="0" id="fxxxTit">
+            <tr>
+              <td>纳税风险提醒</td>
+            </tr>
+          </table>
+          <table cellspacing='1' cellpadding='1' align='center' border="0" id="fxxxTab" class="tb" width="98%">
+            <tr style="height: 20px">
+              <td width="7%" align="center" background="/ims/static/img/tax/tz.gif">序号</td>
+              <td align="center" background="/ims/static/img/tax/tz.gif">风险推送ID</td>
+              <td align="center" width="52%" background="/ims/static/img/tax/tz.gif">风险疑点</td>
+              <td align="center" background="/ims/static/img/tax/tz.gif">操作</td>
+            </tr>
+
+          </table>
+          <br />
+          <table width="98%" align='center' cellspacing='1' cellpadding='1' border="0" id="wsTit">
+            <tr>
+              <td>涉税文书处理</td>
+            </tr>
+          </table>
+          <table cellspacing='1' cellpadding='1' align='center' border="0" id="wsTab" class="tb" width="98%">
+            <tr style="height: 20px">
+              <td width="7%" align="center" background="/ims/static/img/tax/tz.gif">序号</td>
+              <td align="center" width="52%" background="/ims/static/img/tax/tz.gif">文书名称</td>
+              <td align="center" width="15%" background="/ims/static/img/tax/tz.gif">推送时间</td>
+              <td align="center" background="/ims/static/img/tax/tz.gif">操作</td>
+            </tr>
+
+          </table>
+          <br />
+
+
+        </div>
+      </div>
+    </div>
+    <input name="swglm" type="hidden" id="swglm" value="320700002507603">
+    <input name="ccbj" type="hidden" id="ccbj" value="0">
+    <input name="sfqy12wsbbcx" type="hidden" id="sfqy12wsbbcx" value="0">
+    <input name="kkbj" type="hidden" id="kkbj" value="1">
+    <input type="hidden" name="wydXx" value="0" id="wydXx">
+    <input type="hidden" name="dqrq" value="2015-12-13" id="dqrq">
+    <input type="hidden" name="cwbbjdqx" value="Y01_151" id="cwbbjdqx">
+    <input type="hidden" name="cwbbkzbj" value="1" id="cwbbkzbj">
+    <input type="hidden" name="tmp_cwbbmc" value="财务报表(小企业会计准则适用)" id="tmp_cwbbmc">
+  </form>
+  <script type="text/javascript" src="./index/sbmian.js?1449970023766"></script>
+</body>
+</html>

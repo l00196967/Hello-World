@@ -1,0 +1,40 @@
+
+<form id="form_add" class="form label-m" autocomplete="off">
+  $csrfToken.hiddenField
+  <div class="box">
+    <section class="section level-2">
+      <div class="section-body">
+        <div class="row first_row">
+          <div class="span span8">
+            <label class="control-label">用户名<i class="required">*</i></label>
+            <div class="controls">
+              <textarea id="name" name="name" type="text" class="text" required></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span span8">
+            <label class="control-label">角色<i class="required">*</i></label>
+            <div class="controls">
+              <select id="role" name="role" dict-key="role_type" value="type1" required></select>
+            </div>
+          </div>
+        </div>
+
+        <div class="row first_row">
+          <div class="span span8">
+            <div class="controls">
+              <input id="btn_submit" type="button" class="btn btn-l" value="提交" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</form>
+
+<script type="text/javascript">
+	KISSY.use("ims/user/add", function(S, M) {
+		M.init();
+	});
+</script>
