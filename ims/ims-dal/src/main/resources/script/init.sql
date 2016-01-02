@@ -51,3 +51,6 @@ CREATE TABLE T_USER
 
 CREATE UNIQUE INDEX T_BANK_ACCOUNT_IDX1 ON T_BANK_ACCOUNT_IDX1 (account);
 CREATE UNIQUE INDEX T_BANK_RECORD_IDX1 ON T_BANK_RECORD (account, op_time);
+
+
+INSERT INTO T_USER(name, pwd, role, status, create_time) values ('admin', '670b14728ad9902aecba32e22fa4f6bd', 'type4', 'valid', now());

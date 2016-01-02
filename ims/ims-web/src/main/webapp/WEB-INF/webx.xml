@@ -87,6 +87,7 @@
         <pull-factories:bean-tool class="com.taobao.security.util.SecurityUtil" scope="global"/>
 
         <pull-factories:context-exposer>
+            <tool id="pageUtil" />
             <tool id="datadict" />
         </pull-factories:context-exposer>
     </services:pull>
@@ -98,5 +99,6 @@
     </services:module-loader>
 
     <beans:bean id="datadict" class="com.alibaba.ims.platform.dict.DictManager" />
+    <beans:bean id="pageUtil" class="com.alibaba.ims.web.util.PageUtil" />
 
 </beans:beans>

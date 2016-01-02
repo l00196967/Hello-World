@@ -8,7 +8,7 @@
           <div class="span span8">
             <label class="control-label">用户名<i class="required">*</i></label>
             <div class="controls">
-              <textarea id="name" name="name" type="text" class="text" required></textarea>
+              <textarea id="name" name="name" type="text" class="text" style="height: 200px" required></textarea>
             </div>
           </div>
         </div>

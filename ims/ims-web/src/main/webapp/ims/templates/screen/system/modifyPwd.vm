@@ -1,0 +1,66 @@
+<section id="section_add" class="section level-1">
+  <h1 class="section-title">
+    <p>修改密码</p>
+  </h1>
+  <div class="section-body">
+    <form id="form_add" class="form label-m" autocomplete="off">
+      $csrfToken.hiddenField
+      <div class="box">
+        <section class="section level-2">
+          <div class="section-body">
+            <div class="row first_row">
+              <div class="span w450">
+                <label class="control-label">原始密码<i class="required">*</i></label>
+                <div class="controls">
+                  <input name="oldPwd" type="password" class="text" required />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span w450">
+                <label class="control-label">新密码<i class="required">*</i></label>
+                <div class="controls">
+                  <input name="newPwd" type="password" class="text" required />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span w450">
+                <label class="control-label">重复新密码<i class="required">*</i></label>
+                <div class="controls">
+                  <input name="newPwd2" type="password" class="text" equal-field="newPwd" equal-field-msg="密码输入不一致" required />
+                </div>
+              </div>
+            </div>
+            <div id="row_submit" class="row">
+              <div class="span w450">
+                <div class="controls">
+                  <input id="btn_submit" type="button" class="btn btn-l" value="提交" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </form>
+  </div>
+</section>
+
+<script type="text/javascript">
+	KISSY.use("ajax, cute/dialog/, cute/auth/", function(S, IO, Dialog, Auth) {
+		var auth = null;
+		S.all("#btn_submit").on("click", function(){
+			if(!auth){
+              auth = new Auth('#form_add', {submitTest:false});
+              auth.render();
+            }
+            auth.test().then(function(){
+                IO.post("/system/submit.json", IO.serialize(S.all("#form_add")), function(result){
+                    if(result.success){
+                    	Dialog.alert("密码修改成功");
+                    }
+                })
+            })
+		})
+	});
+</script>

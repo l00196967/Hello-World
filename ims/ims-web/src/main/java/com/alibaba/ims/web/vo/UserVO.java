@@ -5,26 +5,25 @@
  * use it only in accordance with the terms of the license agreement you entered
  * into with Alibaba.com.
  */
-package com.alibaba.ims.dal.dao;
-
-import java.util.List;
+package com.alibaba.ims.web.vo;
 
 import com.alibaba.ims.dal.domain.UserDO;
 
 /**
- * 类UserDAO.java的实现描述：TODO 类实现描述
+ * 类UserVO.java的实现描述：TODO 类实现描述
  *
- * @author randy.ly 2015年12月14日 下午11:08:12
+ * @author randy.ly 2015年12月26日 下午3:18:47
  */
-public interface UserDAO {
+public class UserVO extends PageVO {
 
-    public UserDO get(String name);
+    private UserDO model = new UserDO();
 
-    public List<UserDO> getList(UserDO user, int start, int size);
+    public UserDO getModel() {
+        return model;
+    }
 
-    public void add(UserDO user);
+    public void setModel(UserDO model) {
+        this.model = model;
+    }
 
-    public void update(UserDO user);
-
-    public void delete(Long id);
 }

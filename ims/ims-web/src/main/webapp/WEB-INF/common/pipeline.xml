@@ -25,6 +25,9 @@
         <!-- 检查csrf token，防止csrf攻击和重复提交。假如request和session中的token不匹配，则出错，或显示expired页面。 -->
         <pl-valves:TBCheckCsrfToken expiredPage="index.htm" />
 
+        <!-- 鉴权 -->
+        <pl-valves:valve class="com.alibaba.ims.web.valve.PermissionValve" />
+
         <!-- 统一异常处理 -->
         <pl-valves:valve class="com.alibaba.ims.web.valve.ExceptionValve" />
 

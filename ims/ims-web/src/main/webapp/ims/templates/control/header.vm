@@ -19,6 +19,7 @@
 <script type="text/javascript" src="/ims/static/js/bank.js"></script>
 <script type="text/javascript" src="/ims/static/js/user.js"></script>
 <script type="text/javascript" src="/ims/static/js/system.js"></script>
+<script type="text/javascript" src="/ims/static/js/recipt.js"></script>
 
 <title>天凯会计实训系统</title>
 </head>

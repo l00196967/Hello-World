@@ -13,36 +13,18 @@ KISSY.add("ims/user/list", function(S, jIMS, Common, Grid, Tab, IO, Dialog, Hint
 	        cols: [
 				{
 					name:'name',
-					title:'用户名',
-					width: "10%"
+					title:'用户名'
 				},
 				{
 	  				name:'role',
 	  				title:'角色',
-	  				width: "10%",
 	  				tpl: function(value, row){
 	  					return jIMS.dict.get("role_type")[value];
 	  				}
 	      		},
-				{
-	  				name:'xx',
-	  				title:'xxxx',
-	  				width: "10%"
-	      		},
-	      		{
-	  				name:'xx',
-	  				title:'xxxx',
-	  				width: "10%"
-	      		},
-	      		{
-	  				name:'expireTime',
-	  				title:'过期时间',
-	  				width: "10%"
-	      		},
 	      		{
 	  				name: 'operation',
 	  				title: '操作',
-	  				width: "10%",
 					tpl: function(value, row){
 	   					return "<a class='link_reset mr' href='javascript:void(0)' >重置密码</a><a class='link_del mr' href='javascript:void(0)' >删除</a>";
 	   				}
@@ -50,23 +32,70 @@ KISSY.add("ims/user/list", function(S, jIMS, Common, Grid, Tab, IO, Dialog, Hint
 			],
 	        linkers: {
 	        	".link_reset": function(value, row){
+	        		var url = jIMS.context.path + "/user/reset.json?name=" + row.name;
+	            	IO.loading.show();
+	    			IO.post(url, function(result){
+	    				if(result.success){
+	    					Dialog.alert("密码已重置为 000000");
+	    				}
+	    			});
 	        	},
 	        	".link_del": function(value, row){
+	        		var url = jIMS.context.path + "/user/delete.json?id=" + row.id;
+	            	IO.loading.show();
+	    			IO.post(url, function(result){
+	    				if(result.success){
+	    					search(true);
+	    				}
+	    			});
 	        	}
 	        }
 		})
     }
 
     function bindEvent(){
+    	 $('#btn_search').on('click', function(e){
+    		 search(true);
+ 	    });
+
     	$("#btn_add").on("click", function(){
     		var url = jIMS.context.path + "/user/add.htm?layout=false";
     		Common.showDialog(url, {title: '添加用户', width: 900, height: 600});
     	})
+
+    	$("#btn_del").on("click", function(){
+    		var selected = grid.getChecked();
+			if(selected.length == 0){
+				Dialog.alert("请至少选择一条数据！");
+				return false;
+			}
+
+			var ids = "";
+			for(var i in selected){
+				ids += selected[i].id + ",";
+			}
+
+        	var url = jIMS.context.path + "/user/deleteBatch.json?ids=" + ids;
+        	IO.loading.show();
+			IO.post(url, function(result){
+				if(result.success){
+					search(true);
+				}
+			});
+    	})
+
+    	 $("input", $("#form_search")).on("keydown", function (event) {
+ 	    	if(event.which == 13) {
+ 	    		event.preventDefault();
+ 	    		search(true);
+ 	    	}
+     	});
     }
 
 	function search(isFirst){
+		var params = IO.serialize($("#form_search"));
 		var config = {
-			url: jIMS.context.path + "/user/query.json"
+			url: jIMS.context.path + "/user/query.json" + (params ? ("?" + params) : "")
 		}
 		if(isFirst){
 			config.data = {

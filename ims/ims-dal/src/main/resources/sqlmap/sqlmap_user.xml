@@ -16,11 +16,28 @@
         values (#{name}, #{pwd}, #{role}, #{status}, #{createTime})
     </insert>
 
-    <select id="get_list" resultMap="userMap">
-        select * from t_user
+    <select id="get_one" parameterType="string" resultMap="userMap">
+        SELECT * FROM t_user WHERE name = #{value}
     </select>
 
+    <select id="get_list" parameterType="hashmap" resultMap="userMap">
+        SELECT * FROM t_user
+        <where>
+            <if test="user.name != null">
+                 name like CONCAT('%', #{user.name}, '%')
+            </if>
+            <if test="user.role != null">
+                 role = #{user.role}
+            </if>
+        </where>
+        ORDER BY id DESC LIMIT  #{start}, #{size}
+    </select>
+
+    <update id="update" parameterType="UserDO">
+        update t_user set pwd = #{pwd} where id = #{id}
+    </update>
+
     <delete id="delete" parameterType="long">
-        delete from t_user where id = #id#
+        delete from t_user where id = #{value}
     </delete>
 </mapper>

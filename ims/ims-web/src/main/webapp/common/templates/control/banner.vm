@@ -3,7 +3,7 @@
     <div class="hd-logo icon-e60a"></div>
     <h1>天凯会计实训系统</h1>
       <img class="hd-userimg" src="//work.alibaba-inc.com/photo/$vmUtil.loginId.30x30.jpg" />
-      <div class="hd-username" id="usernameMenu">存远</div>
+      <div class="hd-username" id="usernameMenu">$pageUtil.loginName</div>
     </div>
   </div>
 </header>

@@ -18,8 +18,9 @@
         <pl-valves:prepareForTurbine />
 
         <!-- 根据异常，选择适当的错误页面及statusCode。 -->
-        <pl-valves:handleException defaultPage="error">
-            <on-exception type="com.alibaba.citrus.service.template.TemplateNotFoundException" statusCode="404" logging="brief" page="error"/>
+        <pl-valves:handleException defaultPage="index">
+        <on-exception type="com.alibaba.ims.platform.exception.PermissionException" statusCode="403" logging="brief" page="index"/>
+            <on-exception type="com.alibaba.citrus.service.template.TemplateNotFoundException" statusCode="404" logging="brief" page="index"/>
             <on-exception type="com.alibaba.citrus.service.moduleloader.ModuleNotFoundException" statusCode="404" logging="brief" />
         </pl-valves:handleException>
 

@@ -45,13 +45,6 @@ $rundata.setLayout("layout_index.vm")
 
   <script>
     KISSY.use("ajax, cute/auth/", function(S, IO, Auth) {
-    	if("$pageUtil.role"=="type4" || "$pageUtil.role"=="type1"){
-            window.location = '/company/add.htm';
-        }else if("$pageUtil.role"=="type2"){
-            window.location = '/bank/add.htm';
-        }else if("$pageUtil.role"=="type3"){
-            window.location = '/tax/area1.htm';
-        }
     	var auth = null;
         S.one("#btn_login").on("click", function(){
         	if(!auth){
@@ -62,7 +55,13 @@ $rundata.setLayout("layout_index.vm")
                 IO.post("/login.json", IO.serialize(S.all("#loginForm")), function(result){
                     if(result.success){
                     	S.all("#errorTip").hide();
-                    	window.location.reload();
+                    	if("$pageUtil.role"=="type4" || "$pageUtil.role"=="type1"){
+                            window.location = '/company/add.htm';
+                        }else if("$pageUtil.role"=="type2"){
+                            window.location = '/bank/add.htm';
+                        }else if("$pageUtil.role"=="type3"){
+                            window.location = '/tax/area1.htm';
+                        }
                     }else{
                     	S.all("#errorTip").show();
                     }

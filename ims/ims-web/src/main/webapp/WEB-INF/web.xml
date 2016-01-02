@@ -53,7 +53,7 @@
 		<filter-class>com.alibaba.citrus.webx.servlet.WebxFrameworkFilter</filter-class>
 		<init-param>
 			<param-name>excludes</param-name>
-			<param-value>*.jpg,*.png,*.js,*.css,*.ico,*/status.taobao</param-value>
+			<param-value>*.jpg,*.png,*.js,*.css,*.ico,*.ttf,*.woff</param-value>
 		</init-param>
 	</filter>
 	<filter-mapping>

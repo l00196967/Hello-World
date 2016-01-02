@@ -29,6 +29,8 @@ public interface ExceptionCode {
 
         // 无权限
         String PERMISSION_DENIED = "你没有该数据的访问权限";
+
+        String LOGIN_ERROR       = "用户名或密码不正确";
     }
 
     interface Bank {
@@ -38,6 +40,15 @@ public interface ExceptionCode {
         String ACCOUNT_EXIST     = "账户已存在";
 
         String BALANCE_ZERO      = "账户余额不足";
+    }
+
+    interface User {
+
+        String EXIST     = "用户名 [{0}] 已存在";
+
+        String NOT_EXIST = "用户名 [{0}] 不存在或已被删除";
+
+        String PWD_ERROR = "原始密码不正确";
     }
 
 }

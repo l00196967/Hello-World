@@ -8,4 +8,9 @@
 
     <bean id="dictManager" class="com.alibaba.ims.platform.dict.DictManager" init-method="init" />
 
+    <bean id="licenceUtil" class="com.alibaba.ims.platform.util.LicenceUtil">
+        <property name="licence" value="${licence}" />
+        <property name="code" value="${code}" />
+    </bean>
+
 </beans>

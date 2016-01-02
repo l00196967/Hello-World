@@ -25,18 +25,26 @@
               location.href = url;
           },
           data : [
+            #if($pageUtil.role=='type4' || $pageUtil.role=='type1')
             {
                 "id": "company_mgr",
                 "text": "工商系统",
                 "children": [
                    {
                        "id": "company_add",
-                       "text": "工商注册",
+                       "text": "注册申请",
                        "url": jIMS.context.path + "/company/add.htm"
+                   },
+                   {
+                       "id": "company_list",
+                       "text": "申请列表",
+                       "url": jIMS.context.path + "/company/list.htm"
                    }
                 ],
                 "icon": "e610"
             },
+            #end
+            #if($pageUtil.role=='type4' || $pageUtil.role=='type2')
             {
                 "id": "bank_mgr",
                 "text": "银行系统",
@@ -59,33 +67,63 @@
                 ],
                 "icon": "e610"
             },
+            #end
+            #if($pageUtil.role=='type4' || $pageUtil.role=='type3')
+            {
+                "id": "tax_mgr",
+                "text": "税务系统",
+                "children": [
+                   {
+                       "id": "tax_area1",
+                       "text": "地税申报",
+                       "url": jIMS.context.path + "/tax/area1.htm"
+                   },
+                   {
+                       "id": "tax_country1",
+                       "text": "国税申报",
+                       "url": jIMS.context.path + "/tax/country1.htm"
+                   }
+                ],
+                "icon": "e610"
+            },
+            #end
+            #if($pageUtil.role=='type4' || $pageUtil.role=='type3')
+            {
+                "id": "receipt_mgr",
+                "text": "发票管理",
+                "children": [
+                   {
+                       "id": "receipt_add",
+                       "text": "填开发票",
+                       "url": jIMS.context.path + "/receipt/add.htm"
+                   }
+                ],
+                "icon": "e610"
+            },
+            #end
             {
                 "id": "system_mgr",
-                "text": "系统管理",
+                "text": "系统设置",
                 "children": [
+                     #if($pageUtil.role=='type4')
                      {
                           "id": "user_list",
                           "text": "用户管理",
                           "url": jIMS.context.path + "/user/list.htm"
                      },
                      {
-                         "id": "role_list",
-                         "text": "角色管理",
-                         "url": jIMS.context.path + "/role/list.htm"
-                     },
-                     {
                          "id": "system_licence",
-                         "text": "生成Licence",
+                         "text": "Licence",
                          "url": jIMS.context.path + "/system/licence.htm"
+                     },
+                     #end
+                     {
+                         "id": "system_modifyPwd",
+                         "text": "修改密码",
+                         "url": jIMS.context.path + "/system/modifyPwd.htm"
                      }
                  ],
                 "icon": "e622"
-            },
-            {
-                "id": "help",
-                "text": "帮助中心",
-                "url": jIMS.context.path + "/help.htm",
-                "icon": "e630"
             }
         ]
       });

@@ -12,17 +12,24 @@
               <div class="span w450">
                 <label class="control-label">代码<i class="required">*</i></label>
                 <div class="controls">
-                  <input id="name" name="name" type="text" class="text" required />
+                  <input name="code" type="text" class="text" required />
                 </div>
               </div>
               <div class="span w450">
                 <label class="control-label">有效期至<i class="required">*</i></label>
                 <div class="controls">
-                  <input id="expireTime" name="expireTime" type="text" class="text calendar" required />
+                  <input id="expireTime" name="expire" type="text" class="text calendar" required />
                 </div>
               </div>
               <div id="row_submit" class="row buttons-div-center last_row">
                 <input id="btn_submit" type="button" class="btn btn-l" value="Generate" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="span w450">
+                <div class="controls">
+                  <label id="code" class="x-hide"></label>
+                </div>
               </div>
             </div>
           </div>

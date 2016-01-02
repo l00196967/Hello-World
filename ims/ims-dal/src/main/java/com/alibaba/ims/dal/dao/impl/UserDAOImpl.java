@@ -7,7 +7,9 @@
  */
 package com.alibaba.ims.dal.dao.impl;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import com.alibaba.ims.dal.dao.UserDAO;
 import com.alibaba.ims.dal.domain.UserDO;
@@ -20,13 +22,27 @@ import com.alibaba.ims.dal.domain.UserDO;
 public class UserDAOImpl extends AbstractDAO implements UserDAO {
 
     @Override
+    public UserDO get(String name) {
+        return (UserDO) selectOne("user.get_one", name);
+    }
+
+    @Override
+    public List<UserDO> getList(UserDO user, int start, int size) {
+        Map<String, Object> cond = new HashMap<String, Object>();
+        cond.put("start", start);
+        cond.put("size", size);
+        cond.put("user", user);
+        return selectList("user.get_list", cond);
+    }
+
+    @Override
     public void add(UserDO user) {
         insert("user.add", user);
     }
 
     @Override
-    public List<UserDO> getList(UserDO user) {
-        return selectList("user.get_list", user);
+    public void update(UserDO user) {
+        update("user.update", user);
     }
 
     @Override

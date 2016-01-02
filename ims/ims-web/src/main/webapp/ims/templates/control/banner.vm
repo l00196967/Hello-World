@@ -4,7 +4,7 @@
     <h1>天凯会计实训系统</h1>
     <div class="hd-menu">
       <img class="hd-userimg" src="" />
-      <div class="hd-username" id="usernameMenu">存远</div>
+      <div class="hd-username" id="usernameMenu">$pageUtil.loginName</div>
     </div>
   </div>
 </header>
